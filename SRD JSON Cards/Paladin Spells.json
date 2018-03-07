@@ -1,0 +1,1447 @@
+[
+  {
+    "count": "1",
+    "title": "Aura of Life",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 216]",
+      "rule ",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot radius)",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | A 30-foot radius aura emanates from you. Nonhostile creatures within the aura get resistance against necrotic damage and cannot have their HP Max reduced. Any living creature who has 0 HP gains 1 HP within the aura.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "beams-aura"
+  },
+  {
+    "count": 1,
+    "title": "Aura of Purity",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 216]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot radius)",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | Each nonhostile creature (including you) within range has resistance against Poison damage, cannot become diseased, and has advantage against the Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned, and Stunned conditions.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "transfuse"
+  },
+  {
+    "count": 1,
+    "title": "Aura of Vitality",
+    "contents": [
+      "subtitle | 3rd-level evocation [PHB 216]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot radius)",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You can use a bonus action to heal one creature within range, including yourself, to regain 2d6 hit points. This can be done each round during the duration.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "embrassed-energy"
+  },
+  {
+    "count": 1,
+    "title": "Banishing Smite",
+    "contents": [
+      "subtitle | 5th-level abjuration [PHB 216]",
+      "rule ",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Your next attack deals an extra 5d10 force damage. If that attack reduces the target to 50 HP or less it is banished. If native to another plane, it goes home, if native to the current plane, it is banished to a demiplane for the duration of the spell. Creatures return from said demiplane when the duration ends in the condition it left in, but is incapacitated while in the demiplane.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "spiked-snail"
+  },
+  {
+    "count": 1,
+    "title": "Bless",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 219]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a sprinkling of holy water)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Up to three creatures within range can choose to add 1d4 to any attack roll made during the duration.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for every slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "gamepad-cross"
+  },
+  {
+    "count": 1,
+    "title": "Blinding Smite",
+    "contents": [
+      "subtitle | 3rd-level evocation [PHB 219]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Your next weapon attack deals an extra 3d8 radiant damage and blinds the target for the duration unless it makes a Constitution save.",
+      "text | A creature blinded by this spell makes a new save on each of its turns. On a success it is no longer blinded.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "thunder-struck"
+  },
+  {
+    "count": 1,
+    "title": "Branding Smite",
+    "contents": [
+      "subtitle | 2nd-level evocation [PHB 219]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The next time you strike a for, it takes an extra 2d6 radiant damage and sheds dim light until the spell ends.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage dealt by this spell increases by 1d6 for each slot level above 2nd used."
+    ],
+    "color": "",
+    "icon": "wave-strike",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Circle of Power",
+    "contents": [
+      "subtitle | 5th-level abjuration [PHB 221]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot radius)",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | A magical aura emanates from you granting all allies within 30 feet advantage against spells and other magical effects. Also, any creature under the effect of this spell makes a successful saving throw it takes no damage instead of half damage from spell effects.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "laser-sparks",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Command",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 223]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | 1 round",
+      "rule",
+      "fill | 2",
+      "text | The target must pass a Wisdom saving throw or else follow a one-word command issued by you on its next turn. Commands can be: Approach; Drop; Flee; Grovel; Halt; or other one-word commands.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can affect one additional creature within 30 feet of the initial target for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "slavery-whip",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Compelled Duel",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 224]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | 30 feet",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The target must make a Wisdom saving throw or be drawn into a duel with you. On a failed save, the target has disadvantage on attack rolls against anyone but you and must make a Wisdom save if it attempts to move farther than 30 feet away from you.",
+      "text | This effect ends if you attack or cast a spell on a creature other than the target, if an ally damages the target, or if you end your turn more than 30 feet away from the target.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "crossed-pistols",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Create Food/Water",
+    "contents": [
+      "subtitle | 3rd-level conjuration [PHB 229]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You create 45 pounds of food and 30 gallons of water on the ground or in containers nearby, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing and spoils after 24 hours if uneaten. The water is clean and doesn't go bad.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "meat",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Crusader's Mantle",
+    "contents": [
+      "subtitle | 3rd-level evocation [PHB 230]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot radius)",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A holy aura emanates from you, allowing all allies within 30 feet of you to deal an extra 1d4 radiant damage when it hits with a melee weapon attack.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "beams-aura",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Cure Wounds",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 230]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A creature you touch is healed a number of hit points equal to 1d8 + your spellcasting ability modifier. This has no effect on undead or constructs.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The hit points healed increase by 1d8 for each slot level above 1st used to cast this spell.",
+      ""
+    ],
+    "color": "",
+    "icon": "health-increase",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Daylight",
+    "contents": [
+      "subtitle | 3rd-level evocation [PHB 230]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Bright light emanates from a point or object you designate within range for the duration. Covering the source of the light suppresses the effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "sun",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Detect Evil & Good",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 231]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You know if there is an aberration, fiend, fey, celestial, elemental, or undead within 30 feet of you. You also know if a place or object within 30 feet has been consecrated or desecrated.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "crystal-eye",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Detect Magic",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 231]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | For the duration, you sense the presence of magic within 30 feet of you. If you sense magic this way, you can use your action to see a faint aura and determine the school of magic, if any.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "dead-eye",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Detect Poison & Disease",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 231]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a yew leaf)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | For the duration, you can sense the presence, location, and type of poison, disease, and poisonous creatures within 30 feet of you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "11",
+    "icon": "poison-bottle",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Dispel Evil & Good",
+    "contents": [
+      "subtitle | 5th-level abjuration [PHB 233]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (holy water or powdered silver and iron)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Fey, Undead, Celestials, Fiends, and elementals have disadvantage on attack rolls against you. ",
+      "text | You can touch a creature charmed, frightened, or possessed by one of the above creatures, ending that effect and this spell's effect.",
+      "text | You can make a melee spell attack on a creature mentioned above. On a hit the creature must make a Charisma save or be sent to its home plane. This ends the spell's effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "poison-cloud",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Divine Favor",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 234]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Your weapon attacks deal an extra 1d4 radiant damage until the spell ends.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "holy-symbol",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Elemental Weapon",
+    "contents": [
+      "subtitle | 3rd-level transmutation [PHB 237]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | A nonmagical weapon touched when you cast this spell becomes magical. It gets a +1 bonus on attack rolls and deals an extra 1d4 damage on hit of your choice of acid, cold, fire, lightning, or thunder damage.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | When a 5th or 6th level slot is used for this spell, the attack bonus is +2 and the damage is +2d4. A 7th level or higher slot grants+3 to hit and +3d4 to damage."
+    ],
+    "color": "",
+    "icon": "energy-sword",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Gaes",
+    "contents": [
+      "subtitle | 5th-level enchantment [PHB 244]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | 30 days",
+      "rule",
+      "fill | 2",
+      "text | The targeted creature is given a service or task by you. It must make a Wisdom save to resist this effect. On a failed save, the creature must act to carry out the task demanded. The creature takes 5d10 psychic damage each time it performs an action that is counter to your instructions.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | If you use a 7th or 8th level slot for this spell, the duration becomes 1 year. If you use a 9th level slot, it becomes permanent."
+    ],
+    "color": "",
+    "icon": "oppression",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Heroism",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 250]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | For the duration, the touched creature gains immunity to being Frightened and gains temporary HP equal to your spellcasting modifier each round. These temporary HP are lost when the spell ends.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "strong",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Lesser Restoration",
+    "contents": [
+      "subtitle | 2nd-level abjuration [PHB 255]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You touch a creature and end one disease or condition (blinded, deafened, paralyzed, or poisoned) affecting it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "syringe",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Locate Creature",
+    "contents": [
+      "subtitle | 4th-level divination [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a bit of fur from a bloodhound)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Describe or name a creature that is familiar to you, You sense the direction to the creature's location if that creature is within 1,000 feet of you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "radar-sweep",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Locate Object",
+    "contents": [
+      "subtitle | 2nd-level divination [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a forked twig)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | Describe or name an object that is familiar to you. If that object is within 1,000 feet of you then you know the direction and distance to it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "tree-branch",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Magic Circle",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 256]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | 10 feet",
+      "property | Components | V, S, M (holy water or powdered silver and iron worth at least 100 gp)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | A 10-foot radius, 20-foot tall cylinder appears and you select celestials, fey, fiends, elementals, or undead. The chosen creature cannot enter the circle, has disadvantage on those within the circle, and cannot charm or frighten those within the circle. ",
+      "text | You can choose to reverse this effect to trap a creature in the circle instead.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The duration increases by 1 hour for each slot level above 3rd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "magic-swirl",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Magic Weapon",
+    "contents": [
+      "subtitle | 2nd-level transmutation [PHB 257]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | For the duration, a Weapon touched gains a +1 bonus to attack rolls and damage rolls.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The bonus to attacks and damage increases to +2 with a 4th level or higher slot or +3 with a 6th level or higher slot."
+    ],
+    "color": "",
+    "icon": "sparkling-sabre",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Protection from Evil/Good",
+    "contents": [
+      "subtitle | 1st-level abjuration [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (holy water or powdered silver and iron)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | Touched creature has protection against Aberrations, celestials, elementals, fey, fiends, and undead for the duration. Those creatures have disadvantage on attack rolls against the target, the target cannot be charmed, possessed or frightened by those creature types.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "10",
+    "icon": "skull-shield",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Protection from Poison",
+    "contents": [
+      "subtitle | 2nd-level abjuration [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Touched creature is cured of one type of poison. For the duration, the creature has advantage on saving throws against being poisoned and has resistance to poison damage.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "11",
+    "icon": "shieldcomb",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Purify Food and Drink",
+    "contents": [
+      "subtitle | 1st-level transmutation [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 10 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | All nonmagical food and drink within a 5-foot radius sphere centered on a spot you choose is rendered free from poison and disease.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "12",
+    "icon": "sliced-bread",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Raise Dead",
+    "contents": [
+      "subtitle | 5th-level necromancy [PHB 270]",
+      "rule",
+      "property | Casting time | 1 hour",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a diamond worth 500 gp)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You return a dead creature you touch to life, provided it has been dead for no more than 10 days. If the soul is willing to return to the body, it returns to life with 1 hit point.",
+      "text | Creatures brought back this way suffer a -4 penalty to attack rolls, saving throws, and ability checks. This penalty is reduced by 1 every time the creature completes a long rest.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "frankenstein-creature",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Remove Curse",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 271]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its attunement to the owner of the object so it can be removed or discarded.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "gift-of-knowledge",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Revivify",
+    "contents": [
+      "subtitle | 3rd-level conjuration [PHB 272]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (diamonds worth 300 gp)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You touch a creature that has died within the past minute and return it to life with 1 hit point. This does not work on creatures that died of old age, nor can it restore lost body parts.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "pirate-grave",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Searing Smite",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 274]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Your next attack against a creature deals an extra 1d6 fire damage and causes the creature to catch fire. On each of its turns after that, the creature makes a Constitution saving throw. On failure it takes 1d6 fire damage; on success the fire is put out.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The initial fire damage is increased by 1d6 for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "sparkling-sabre",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Shield of Faith",
+    "contents": [
+      "subtitle | 1st-level abjuration [PHB 275]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a small parchment with a bit of holy text written on it)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | A shimmering force surrounds a creature of your choice within range, granting +2 AC for the duration.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "edged-shield",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Staggering Smite",
+    "contents": [
+      "subtitle | 4th-level evocation [PHB 278]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The next time you hit a creature with a melee weapon, the attack deals an extra 4d6 psychic damage and the target makes a Wisdom saving throw. On failure, the target has disadvantage on attack rolls and ability checks, and cannot take reactions until after its next turn.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "bolas",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Thunderous Smite",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 282]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The first time you hit with a melee weapon during this spell's duration, your weapon deals an extra 2d6 thunder damage. The target must also make a Strength saving throw or be pushed 10 feet away from you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "hammer-drop",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Wrathful Smite",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 289]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Your next attack deals an extra 1d6 psychic damage and the target must make a Wisdom saving throw or be frightened for the duration. If frightened, the creature can use an action to make a Wisdom saving throw to end this effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "mining",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Zone of Truth",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 289]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You create a 15-foot radius area where creature can only speak truth. Creatures within this area make a Charisma saving throw. On a failure, they cannot willingly tell a lie. You know whether each creature in the area succeeds or fails its save. Creatures in the area also know they are under the effects of this spell and can thus refuse to answer a question they would normally lie in response to.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "aerial-signal",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Banishment",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 217]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (an item distasteful to the target)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The target must make a Charisma save or be banished. If the target is native to your current plane, it is banished for the duration, but returns at the end of it. If it is native to another plane it is returned there and does not return if concentration is maintained for the duration. ",
+      "fill | 3",
+      "section | At higher levels",
+      "text | Target an additional creature for each slot level above 4th used to cast this spell."
+    ],
+    "color": "",
+    "icon_back": "winged-sword",
+    "icon": "split-cross"
+  },
+  {
+    "count": "1",
+    "title": "Protection from Evil/Good (Devotion)",
+    "contents": [
+      "subtitle | 1st-level abjuration [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (holy water or powdered silver and iron)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | Touched creature has protection against Aberrations, celestials, elementals, fey, fiends, and undead for the duration. Those creatures have disadvantage on attack rolls against the target, the target cannot be charmed, possessed or frightened by those creature types.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "10",
+    "icon": "skull-shield",
+    "icon_back": "bordered-shield"
+  },
+  {
+    "count": 1,
+    "title": "Sanctuary (Devotion)",
+    "contents": [
+      "subtitle | 1st-level abjuration [PHB 272]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a small silver mirror)",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A creature within range is warded from attacks. Any creature who targets the warded creature with an attack or spell must first make a Wisdom saving throw. On a failed save the creature must select a new target or lost the attack or spell. ",
+      "text | This effect ends if the warded creature attacks or casts a spell that affects an enemy creature.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "castle",
+    "icon_back": "bordered-shield"
+  },
+  {
+    "count": 1,
+    "title": "Zone of Truth (Devotion)",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 289]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You create a 15-foot radius area where creature can only speak truth. Creatures within this area make a Charisma saving throw. On a failure, they cannot willingly tell a lie. You know whether each creature in the area succeeds or fails its save. Creatures in the area also know they are under the effects of this spell and can thus refuse to answer a question they would normally lie in response to.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "aerial-signal",
+    "icon_back": "bordered-shield"
+  },
+  {
+    "count": 1,
+    "title": "Lesser Restoration (Devotion)",
+    "contents": [
+      "subtitle | 2nd-level abjuration [PHB 255]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You touch a creature and end one disease or condition (blinded, deafened, paralyzed, or poisoned) affecting it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "syringe",
+    "icon_back": "bordered-shield",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Beacon of Hope (Devotion)",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 217]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | Cocentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Choose any number of creatures within range. Those affected have advantage on Wisdom and death saving throws, and recovers the maximum number of HP possible from healing effects.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "bordered-shield",
+    "icon": "embrassed-energy",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "title": "Dispel Magic (Devotion)",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 234]",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A single 3rd-level or lower spell effect within range chosen by you is dispelled. For 4th-level and higher effects, you must make a DC 10 + the spell's level check to dispel it.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | This automatically dispels a spell effect of an equal or lower level of the slot level used to cast it."
+    ],
+    "color": "",
+    "icon": "magic-swirl",
+    "icon_back": "bordered-shield",
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "title": "Freedom of Movement (Devotion)",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 244]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Tough",
+      "property | Components | V, S, M (a leather strap, bound around the arm or similar appendage)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | A willing creature touched, for the duration, is unhampered by difficult terrain, cannot be restrained or paralyzed, can spend 5 feet of movement to escape nonmagical restraints, and has no movement penalty for being underwater.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "dodging",
+    "icon_back": "bordered-shield",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Guardian of Faith (Devotion)",
+    "contents": [
+      "subtitle | 4th-level conjuration [PHB 246]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | A Large guardian appears in an unoccupied space you designate within range. Whenever a creature comes within 10 feet of the guardian for the first time, it must make a Dexterity saving throw or take 20 radiant damage, half damage on a successful save. The guardian vanishes once it has dealt 60 damage, or the spell expires.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "battle-gear",
+    "icon_back": "bordered-shield",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Commune (Devotion)",
+    "contents": [
+      "subtitle | 5th-level divination [PHB 223]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Self",
+      "property | Components | V, S, M (incense and a vial or holy or unholy water)",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You contact your deity or a deity's proxy and may ask up to three questions over the duration and receive true, yes-or-no answers. ",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "conversation",
+    "icon_back": "bordered-shield"
+  },
+  {
+    "count": 1,
+    "title": "Flame Strike (Devotion)",
+    "contents": [
+      "subtitle | 5th-level evocation [PHB 242]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a bit of sulfur)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A 10-foot radius, 40-foot high cylinder of divine fire appears in your designated location, dealing 4d6 fire and 4d6 radiant damage to all creatures within its effect. Creatures make a Dexterity saving throw for half damage.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | Either the fire or radiant damage (your choice) increases by 1d6 for each slot level above 5th used to cast this spell."
+    ],
+    "color": "",
+    "icon": "dragon-breath",
+    "icon_back": "bordered-shield",
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "title": "Ensnaring Strike (Ancients)",
+    "contents": [
+      "subtitle | 1st-level conjuration [PHB 237]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A writhing mass of thorny vines appear when you next strike with a weapon. The target must make a Strength saving throw or is restrained by the vines for the duration. While restrained, the target takes 1d6 piercing damage at the start of its turn. A restrained creature can spend an action to attempt a Strength check to break free of the vines.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The vines deal an additional 1d6 damage per round for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "mantrap",
+    "icon_back": "moon",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Speak with Animals (Ancients)",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 277]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You gain the ability to speak and understand beasts for the duration.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "vulture",
+    "icon_back": "moon",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Moonbeam (Ancients)",
+    "contents": [
+      "subtitle | 2nd-level evocation [PHB 261]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A 5-foot radius, 40-foot tall cylinder of silvery light fills an area within range. Any creature that enters or starts its turn in the area takes 2d10 radiant damage, halved with a Constitution saving throw.",
+      "text | On your turn you can move the beam up to 60 feet in any direction.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage increases by 1d10 for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "moon",
+    "icon_back": "moon"
+  },
+  {
+    "count": 1,
+    "title": "Misty Step (Ancients)",
+    "contents": [
+      "subtitle | 2nd-level conjuration [PHB 260]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "teleport",
+    "icon_back": "moon"
+  },
+  {
+    "count": 1,
+    "title": "Plant Growth (Ancients)",
+    "contents": [
+      "subtitle | 3rd-level transmutation [PHB 266]",
+      "rule",
+      "property | Casting time | 1 action or 8 hours",
+      "property | Range | 150 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | If cast as an action, choose a spot within range that you can see. All plant life within 100 feet of that spot becomes thick and overgrown and creatures must spend 4 feet of movement to move 1 foot.",
+      "text | If cast as 8 hours, you enrich the land within half a mile. The plants within range become enriched for 1 year, yielding twice the normal amount of food when harvested.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "high-grass",
+    "icon_back": "moon",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "title": "Protection from Energy (Ancients)",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | For the duration, one creature you touch has resistance to one damage type of your choice from: Acid, Cold, Fire, Lightning, or Thunder.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "11",
+    "icon": "shield-reflect",
+    "icon_back": "moon"
+  },
+  {
+    "count": 1,
+    "title": "Stoneskin (Ancients)",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 278]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (diamond dust worth 100 gp)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | The spell turns the flesh of a willing creature you touch as hard as stone. For the duration, the creature has resistance to nonmagical bludgeoning, piercing and slashing damage.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "lamellar",
+    "icon_back": "moon"
+  },
+  {
+    "count": 1,
+    "title": "Ice Storm (Anceints)",
+    "contents": [
+      "subtitle | 4th-level evocation [PHB 252]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 300 feet",
+      "property | Components | V, S, M (a pinch of dust and a few drops of water)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A 20-foot radius, 40-foot tall cylinder area within range becomes difficult terrain for 1 round. Any creature in that area takes 2d8 bludgeoning damage and 4d6 cold damage, halved with a successful Dexterity saving throw.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The bludgeoning damage increases by 1d8 for each slot level above 4th used to cast this spell."
+    ],
+    "color": "",
+    "icon": "ice-bolt",
+    "icon_back": "moon"
+  },
+  {
+    "count": 1,
+    "title": "Tree Stride (Ancients)",
+    "contents": [
+      "subtitle | 5th-level conjuration [PHB 283]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You gain the ability to enter a tree and move inside it to inside another tree of the same type within 500 feet. You can use this mode of transportation once per round for the duration, and must end each round outside of a tree.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "dead-wood",
+    "icon_back": "moon"
+  },
+  {
+    "count": 1,
+    "title": "Commune with Nature (Ancients)",
+    "contents": [
+      "subtitle | 5th-level divination [PHB 224]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | This spell grants you knowledge of up to to three facts about the surrounding 3 miles if outdoors, or 300 feet if underground. You choose three from: terrain and bodies of water; prevalent plants, minerals, animals or peoples; powerful celestials, fey, fiends, elementals or undead; influence from other planes; or buildings.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "ouroboros",
+    "icon_back": "moon",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Bane (Vengeance)",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 216]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a drop of blood)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Up to three creatures within range must make a Charisma save. On a failure a creature must roll 1d4 and subtract the result from all attack rolls and saving throws for the duration.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | For each slot level above 1st used for this spell, target one additional creature."
+    ],
+    "color": "",
+    "icon_back": "bloody-stash",
+    "icon": "gaze"
+  },
+  {
+    "count": 1,
+    "title": "Hunter's Mark (Vengeance)",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 251]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | 90 feet",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You choose a creature you can see within range. For the duration, you deal 1d6 extra damage to that creature with weapon attacks and you have advantage on Survival and Perception checks to locate it. If the target is dropped to 0 HP before the spell ends, you can designate a new target as a bonus action.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The duration increases to 8 hours if a 3rd or 4th level slot is used, and 24 hours for a 5th or higher."
+    ],
+    "color": "",
+    "icon": "targeted",
+    "icon_back": "bloody-stash"
+  },
+  {
+    "count": 1,
+    "title": "Hold Person (Vengeance)",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 251]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a small, straight piece of iron)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A humanoid within range must make a Wisdom saving throw or be paralyzed for the duration. A paralyzed humanoid can attempt a new saving throw at the end of each of its turns to end this effect.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional humanoid for each slot level above 2nd used to cast this spell. All targets must be within 30 feet of each other."
+    ],
+    "color": "",
+    "icon": "nailed-foot",
+    "icon_back": "bloody-stash",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "title": "Misty Step (Vengeance)",
+    "contents": [
+      "subtitle | 2nd-level conjuration [PHB 260]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "teleport",
+    "icon_back": "bloody-stash"
+  },
+  {
+    "count": 1,
+    "title": "Haste (Vengeance)",
+    "contents": [
+      "subtitle | 3rd-level transmutation [PHB 250]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a shaving of licorice root)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A willing creature within range has its speed doubled, gains +2 to AC, has advantage on Dexterity saving throws, and gains an additional action on each of its turns. That extra action can only be used to Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object.",
+      "text | When the effect ends, the creature cannot move or take actions until after its next turn.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "sprint",
+    "icon_back": "bloody-stash"
+  },
+  {
+    "count": 1,
+    "title": "Protection from Energy (Vengeance)",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | For the duration, one creature you touch has resistance to one damage type of your choice from: Acid, Cold, Fire, Lightning, or Thunder.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "11",
+    "icon": "shield-reflect",
+    "icon_back": "bloody-stash"
+  },
+  {
+    "count": 1,
+    "title": "Banishment (Vengeance)",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 217]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (an item distasteful to the target)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The target must make a Charisma save or be banished. If the target is native to your current plane, it is banished for the duration, but returns at the end of it. If it is native to another plane it is returned there and does not return if concentration is maintained for the duration. ",
+      "fill | 3",
+      "section | At higher levels",
+      "text | Target an additional creature for each slot level above 4th used to cast this spell."
+    ],
+    "color": "",
+    "icon_back": "bloody-stash",
+    "icon": "split-cross"
+  },
+  {
+    "count": 1,
+    "title": "Dimension Door (Vengeance)",
+    "contents": [
+      "subtitle | 4th-level conjuration [PHB 233]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 500 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You and up to one willing medium-sized creature within 5 feet of you are instantly teleported to a designated spot within range. If you would arrive in a space already occupied by a creature, you and any creature you take with you take 4d6 force damage and the spell fails.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "magic-portal",
+    "icon_back": "bloody-stash",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "title": "Scrying (Vengeance)",
+    "contents": [
+      "subtitle | 5th-level divination [PHB 273]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | Self",
+      "property | Components | V, S, M (a focus worth at least 1,000 gp)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You attempt to see and hear a particular creature you choose that is on the same plane of existence. The target makes a Wisdom save, which is modified by the target's knowledge and physical connection to you. ",
+      "text | On a successful save, the spell fails and you cannot target that creature again for 24 hours. On a failure, you see all within 10 feet of the target.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "crystal-ball",
+    "icon_back": "bloody-stash"
+  },
+  {
+    "count": 1,
+    "title": "Hold Monster (Vengeance)",
+    "contents": [
+      "subtitle | 5th-level enchantment [PHB 251]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 90 feet",
+      "property | Components | V, S, M (a small, straight piece of iron)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A creature within range must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the creature can make a new saving throw to end the effect.",
+      "fill | 3",
+      "section | At higher levels ",
+      "text | You can target one additional creature for each slot level above 5th used to cast this spell. All creatures targeted must be within 30 feet of each other."
+    ],
+    "color": "",
+    "icon": "cobweb",
+    "icon_back": "bloody-stash"
+  },
+  {
+    "count": 1,
+    "title": "Find Steed",
+    "contents": [
+      "subtitle | 2nd-level conjuration [PHB 240]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You summon an intelligent steed of your choosing. It knows one language that you know and you can communicate with it telepathically if it is within 1 mile of you. You cannot have more than 1 steed bonded to you at one time, you can dismiss your steed as an action.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "horse-head",
+    "icon_back": "winged-sword"
+  },
+  {
+    "count": 1,
+    "title": "Aid",
+    "contents": [
+      "subtitle | 2nd-level abjuration [PHB 211]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | V, S, M (a tiny strip of white cloth)",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's Max HP and current HP increase by 5 for the duration",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The HP increases by an additional 5 hit points for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "backstab",
+    "icon_back": "winged-shield"
+  }
+]

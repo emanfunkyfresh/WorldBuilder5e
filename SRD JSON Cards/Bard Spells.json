@@ -1,0 +1,2366 @@
+[
+  {
+    "count": 1,
+    "title": "Animal Friendship",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 212]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a morsel of food)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | A beast within range that can see and hear you must make a Wisdom save or be charmed for the duration. Harm from you or your allies ends the effect.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | When you case this spell using a slot of 2nd level or higher, you can affect one additional beast for every slot level above 1st."
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "animal-hide"
+  },
+  {
+    "count": 1,
+    "title": "Animal Messenger",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 212]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a morsel of food)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | Designate a Tiny creature within range that you can see. That creature travels up to 50 miles per day flying (25 by land) and delivers a message to a person fitting a general description given by you. The message can be up to 25 words and is delivered in your voice.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | If you cast the spell with a spell slot above 2nd, the duration of the spell increases by 48 hours for each slot level above 2nd."
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "crow-dive"
+  },
+  {
+    "count": 1,
+    "title": "Animate Objects",
+    "contents": [
+      "subtitle | 5th-level transmutation [PHB 213]",
+      "rule ",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You animate up to ten objects within range. Medium objects count as 2, Large as 4, and Huge as 8. The objects attack when mentally commanded using a slam attack (listed on separate card) Animated objects can move up to 30 feet per round.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You animate two additional objects for each slot level above 5th used for this spell."
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "wave-strike"
+  },
+  {
+    "count": 1,
+    "title": "Animated Objects' Stats",
+    "contents": [
+      "fill | 2",
+      "text | Tiny objects: HP 20; AC 18; STR 4; DEX 18; +8 to hit, 1d4 +4 damage",
+      "text | Small objects: HP 25; AC 16; STR 6; DEX 14; +6 to hit, 1d8 +2 damage",
+      "text | Medium objects: HP 40; AC 13; STR 10; DEX 12; +5 to hit, 2d6 +1 damage",
+      "text | Large objects: HP 50; AC 10; STR 14; DEX 10; +6 to hit, 2d10 +2 damage",
+      "text | Huge objects: HP 80; AC 10; STR 18; DEX 6; +8 to hit, 2d12 +4 damage",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "robot-golem",
+    "icon": "wave-strike"
+  },
+  {
+    "count": 1,
+    "title": "Awaken",
+    "contents": [
+      "subtitle | 5th-level transmutation [PHB 216]",
+      "rule",
+      "property | Casting time | 8 hours",
+      "property | Range | Touch",
+      "property | Components | V, S, M (an agate worth 1,000 gp, which the spell consumes)",
+      "property | Duration| Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | After spending the casting time tracing pathways in the gemstone focus, you touch a Huge or smaller beast or plant with an Intelligence of 3 or less. The touched plant or beast gains awareness, the ability to move, an Intelligence of 10 and the ability to speak one language you know.",
+      "text | The awakened creature is charmed by you for 30 days or until you or your allies harm it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "sly"
+  },
+  {
+    "count": 1,
+    "title": "Bane",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 216]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a drop of blood)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Up to three creatures within range must make a Charisma save. On a failure a creature must roll 1d4 and subtract the result from all attack rolls and saving throws for the duration.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | For each slot level above 1st used for this spell, target one additional creature."
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "gaze"
+  },
+  {
+    "count": 1,
+    "title": "Bestow Curse",
+    "contents": [
+      "subtitle | 3rd-level necromancy [PHB 218]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The creature touched must make a Wisdom saving throw or receives one of the following effects: Disadvantage on checks and saves with on ability score; disadvantage on attack rolls against you; target makes a wisdom saving throw every turn or does nothing; or you spells and attacks deal an extra 1d8 damage.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The duration goes up to 10 minutes with a 4th level slot, 8 hours for 5th, 24 hours for 7th, and until dispelled for 9th."
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "voodoo-doll"
+  },
+  {
+    "count": 1,
+    "title": "Blade Ward",
+    "contents": [
+      "subtitle | Abjuration cantrip [PHB 218]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | 1 round",
+      "rule",
+      "fill | 2",
+      "text | Until the end of your next turn you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "all-for-one"
+  },
+  {
+    "count": 1,
+    "title": "Blindness/Deafness",
+    "contents": [
+      "subtitle | 2nd-level necromancy [PHB 219]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | V",
+      "property | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | One creature within range must make a Constitution saving throw. If it fails it is blinded or deafened (your choice) for the duration. The creature can make a new save on each of its turns to end this effect.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "silence"
+  },
+  {
+    "count": 1,
+    "title": "Calm Emotions",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 221]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | All creatures within 20 feet of a point you designate within range make a Charisma saving throw or suffer from one of two effects:",
+      "text | Suppress charm or frightened effects; or",
+      "text | Make targets indifferent to creatures it was hostile toward.",
+      "text | Creatures can willingly fail the Charisma saving throw.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "paranoia",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Charm Person",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 221]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You target one creature within range. That creature must make a Wisdom saving throw. If it fails it regards you as friendly for the duration or until you or an ally cause harm to it. When the duration ends the creature is aware it was charmed by you.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "charm",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Clairvoyance",
+    "contents": [
+      "subtitle | 3rd-level divination [PHB 222]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | 1 mile",
+      "property | Components | V, S, M (a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | An invisible sensor appears in the place of your choosing that you can choose to either hear or see through.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "eyeball",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Cloud of Daggers",
+    "contents": [
+      "subtitle | 2nd-level conjuration [PHB 222]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a sliver of glass)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You fill a 5-foot cube with spinning daggers for the duration. Creatures who enter the area or start their turn there take 4d4 slashing damage.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage increases by 2d4 for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "scalpel-strike",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Comprehend Languages",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 224]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a pinch of soot and salt)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | For the duration you understand the literal meaning of any language spoken near you and can read any language written, provided you are touching the surface on which it is written.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "conversation",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Compulsion",
+    "contents": [
+      "subtitle | 4th-level enchantment [PHB 224]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Creatures of your choice that you can see within range must make a Wisdom saving throw. Upon failure the affected creatures must use as much of their movement as possible to move in the direction you designate. After moving this way the creature can make another Wisdom save to end this effect.",
+      "text | Creatures cannot be compelled to move into dangerous areas (burning building, spike pit, etc.) but will provoke opportunity attacks through movement.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "love-song",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Confusion",
+    "contents": [
+      "subtitle | 4th-level enchantment [PHB 224]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 90 feet",
+      "property | Components | V, S, M (three nut shells)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Creatures within a 10-foot radius sphere centered on a spot within range make a Wisdom save. On a failure, a creature must roll 1d10 at the start of its turn to determine its action.",
+      "text | 1: Creature moves in a random direction; 2-6: The creature makes no movement or action; 7-8: Creature attacks a random nearby creature; 9-10: The creature moves and attacks normally.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The radius of influence increases by 5 feet for each slot level above 4th used to cast this spell."
+    ],
+    "color": "",
+    "icon": "tear-tracks",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Crown of Madness",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 229]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | The target creature is charmed by you unless it passes a Wisdom saving throw. If charmed, the target must use its action before movement to attack a nearby creature that you designate. You must maintain the spell as an action each turn and the target can make a new Wisdom saving throw at the end of each round to end the spell.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "sharp-crown",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Cure Wounds",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 230]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A creature you touch is healed a number of hit points equal to 1d8 + your spellcasting ability modifier. This has no effect on undead or constructs.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The hit points healed increase by 1d8 for each slot level above 1st used to cast this spell.",
+      ""
+    ],
+    "color": "",
+    "icon": "health-increase",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dancing Lights",
+    "contents": [
+      "subtitle | Evocation cantrip [PHB 230]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S, M (a bit of phosphorous or wychwood, or a glowworm)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You create up to 4 torch-sized lights within range, each shedding light in a 10-foot radius. You can move the lights up to 60 feet per round as a bonus action, but the lights must remain within range of the spell and within 20 feet of each other.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "torch",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Detect Magic",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 231]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | For the duration, you sense the presence of magic within 30 feet of you. If you sense magic this way, you can use your action to see a faint aura and determine the school of magic, if any.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "dead-eye",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Detect Thoughts",
+    "contents": [
+      "subtitle | 2nd-level divination [PHB 231]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a piece of copper)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You are able to read the surface thoughts of any creature within 30 feet using this spell. You can focus, as an action, to delve deeper into a creature's thoughts. This can be used to determined if there are creatures with readable thoughts within 30 feet of you, even unseen.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "paranoia",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dimension Door",
+    "contents": [
+      "subtitle | 4th-level conjuration [PHB 233]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 500 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You and up to one willing medium-sized creature within 5 feet of you are instantly teleported to a designated spot within range. If you would arrive in a space already occupied by a creature, you and any creature you take with you take 4d6 force damage and the spell fails.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "magic-portal",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Disguise Self",
+    "contents": [
+      "subtitle | 1st-level illusion [PHB 233]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You change your appearance to that of your choosing, so long as it is still humanoid and no more than 1 foot taller or shorter than your natural height. This does not stand up to physical inspection. ",
+      "text | To discern that you are disguised, a creature must spend an action and succeed on an Investigation check.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "cracked-mask",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dispel Magic",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 234]",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A single 3rd-level or lower spell effect within range chosen by you is dispelled. For 4th-level and higher effects, you must make a DC 10 + the spell's level check to dispel it.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | This automatically dispels a spell effect of an equal or lower level of the slot level used to cast it."
+    ],
+    "color": "",
+    "icon": "magic-swirl",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dissonant Whispers",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 234]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You whisper a melody that only one creature within range can hear. That creature takes 3d6 psychic damage and must use its reaction to move as far away from you as possible. A successful Wisdom saving throw halves the damage and the creature is not forced to move.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage increases by 1d6 for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "ultrasound",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dominate Monster",
+    "contents": [
+      "subtitle | 8th-level enchantment [PHB 235]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You take control of any creature within range, barring a successful Wisdom saving throw. You can order it telepathically or take precise control over it with an action. The creature gets a new saving throw whenever it takes damage.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The duration increases to \"concentration, up to 8 hours\" if a 9th-level slot is used to cast this spell."
+    ],
+    "color": "",
+    "icon": "sly",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dominate Person",
+    "contents": [
+      "subtitle | 5th-level enchantment [PHB 235]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You take control of a humanoid within range that you can see, barring a successful Wisdom saving throw. You can control the humanoid telepathically or take precise control over it with an action. Each time the humanoid takes damage, it gets another saving throw.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The spell's duration increases to 10 minutes if a 6th level slot is used, 1 hour for a 7th level slot, or 8 hours with an 8th level slot."
+    ],
+    "color": "",
+    "icon": "paranoia",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Dream",
+    "contents": [
+      "subtitle | 5th-level illusion [PHB 236]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Special",
+      "property | Components | V, S, M (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | You target any creature that is known to you that is on the same plane of existence. You, or a willing creature you touch, appears to the subject in a dream as a messenger. You can choose to make the messenger monstrous. Doing so deals 3d6 psychic damage to the subject upon waking up, barring a successful Wisdom saving throw.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "coma",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Enhance Ability",
+    "contents": [
+      "subtitle | 2nd-level transmutation [PHB 237]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (fur or a feather from a beast)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | The touched creature gains Advantage on one type of ability check for the duration.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for every slot above 2nd level used to cast this spell."
+    ],
+    "color": "",
+    "icon": "muscle-up",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Enthrall",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 238]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Creatures of your choice within range receive disadvantage on Perception checks to notice anything other than you for the duration. Creatures get a Wisdom saving throw to resist the effects of this spell, and creatures immune to charm cannot be affected.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "suspicious",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Etherealness",
+    "contents": [
+      "subtitle | 7th-level transmutation [PHB 238]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Up to 8 hours",
+      "rule",
+      "fill | 2",
+      "text | You partially enter the Ethereal Plane, allowing you to move through solid objects and even move in any direction for the duration. ",
+      "fill | 3",
+      "section | At higher levels",
+      "text | If you cast this spell using a slot of 8th level or higher, you can target up to three willing creatures for each slot level above 7th used."
+    ],
+    "color": "",
+    "icon": "invisible",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Eyebite",
+    "contents": [
+      "subtitle | 6th-level necromancy [PHB 238]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You target one creature per turn up to 60 feet away to receive one of the following effects, negated by a Wisdom saving throw:",
+      "text | Asleep: target falls unconscious, can be awoken by damage or another creature using an action to wake it.",
+      "text | Panicked:  target uses the Dash action to move as far away from you as possible",
+      "text | Sickened: target has disadvantage on attack rolls and ability checks, but can attempt a new save each round.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "falling-eye",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Faerie Fire",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 239]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | All objects in a 20-foot cube are outlined in blue, green, or violet light. Any creatures in the area are also outlined, unless the succeed on a Dexterity saving throw. Attack rolls made against outlined creatures have advantage and outlines creatures do not benefit from invisibility.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "torch",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Fear",
+    "contents": [
+      "subtitle | 3rd-level illusion [PHB 239]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot cone)",
+      "property | Components | V, S, M (a white feather or the heart of a hen)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You project a phantasmal image in front of you. Each creature in a 30-foot cone must make a Wisdom saving throw or be frightened for the duration.",
+      "text | A frightened creature must take the Dash action to move away from you by the safest route on its turn. If it ends its turn in a place that does not have line of sight to you, it gets another Wisdom saving throw against this spell.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "terror",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Feather Fall",
+    "contents": [
+      "subtitle | 1st-level transmutation [PHB 239]",
+      "rule",
+      "property | Casting time | 1 reaction, when you or a creature within 60 feet falls",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a small feather or piece of down)",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Choose up to five falling creatures within range. Affected creatures falling speed becomes 60 feet per round until the spell ends. If the creature lands before the spell ends it takes no falling damage and can land on its feet, ending the effect for that creature.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "two-feathers",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Feeblemind",
+    "contents": [
+      "subtitle | 8th-level enchantment [PHB 239]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 150 feet",
+      "property | Components | V, S, M (a handful of clay, crystal, glass, or mineral spheres)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | The target takes 4d6 psychic damage and must make an Intelligence saving throw. On a failed save, the target's Intelligence and Charisma scores become 1. It can no longer cast spells or understand language, nor can it communicate in an intelligible way. It can still identify friends and act to protect them.",
+      "text | Every 30 days, the creature can attempt the saving throw again to end the effect. ",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "hidden",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Feign Death",
+    "contents": [
+      "subtitle | 3rd-level necromancy [PHB 240]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a pinch of graveyard dirt)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You touch a willing creature and put it into a state of sleep similar to death. To all outward examinations, the creature is dead for the duration of the spell.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "guillotine",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Find the Path",
+    "contents": [
+      "subtitle | 6th-level divination [PHB 240]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Self",
+      "property | Components | V, S, M (a set of divinatory tools worth 100 gp and an object from the location you wish to find)",
+      "property | Duration | Concentration, up to 1 day",
+      "rule",
+      "fill | 2",
+      "text | The spell shows you the shortest, most direct route to your chosen destination. As long as the spell lasts and your destination is on the same plane of existence, you know the direction and distance to your destination.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "compass",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Forcecage",
+    "contents": [
+      "subtitle | 7th-level evocation [PHB 243]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 100 feet",
+      "property | Components | V, S, M (ruby dust worth 1,500 gp)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You create a cage (20 feet per side) or box (10 feet per side) of force to trap a creature or creatures inside. Creatures trapped cannot leave by nonmagical means and must succeed on a Charisma saving throw when attempting to leave through magical means. A failed Charisma save makes the spell attempted lost as well.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "portculis",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Foresight",
+    "contents": [
+      "subtitle | 9th-level divination [PHB 244]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a hummingbird feather)",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | You bestow a limited ability to see into the immediate future on a touched creature. This creature has advantage on all attack rolls, ability checks, and saving throws for the duration. Additionally, all attack rolls against the creature have disadvantage for the duration.",
+      "text | This spell ends if you cast it again before the effect expires.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "crystal-ball",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Freedom of Movement",
+    "contents": [
+      "subtitle | 4th-level abjuration [PHB 244]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Tough",
+      "property | Components | V, S, M (a leather strap, bound around the arm or similar appendage)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | A willing creature touched, for the duration, is unhampered by difficult terrain, cannot be restrained or paralyzed, can spend 5 feet of movement to escape nonmagical restraints, and has no movement penalty for being underwater.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "dodging",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Friends",
+    "contents": [
+      "subtitle | Enchantment cantrip [PHB 244]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | S, M (a small amount of makeup applied during casting)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You have advantage on all Charisma checks directed at one creature of your choice for the duration. When the spell ends, the creature knows it was magically manipulated and becomes hostile toward you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "smitten",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Gaes",
+    "contents": [
+      "subtitle | 5th-level enchantment [PHB 244]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | 30 days",
+      "rule",
+      "fill | 2",
+      "text | The targeted creature is given a service or task by you. It must make a Wisdom save to resist this effect. On a failed save, the creature must act to carry out the task demanded. The creature takes 5d10 psychic damage each time it performs an action that is counter to your instructions.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | If you use a 7th or 8th level slot for this spell, the duration becomes 1 year. If you use a 9th level slot, it becomes permanent."
+    ],
+    "color": "",
+    "icon": "oppression",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Glibness",
+    "contents": [
+      "subtitle | 8th-level transmutation [PHB 245]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Until the spell ends, you can treat any Charisma check as if you rolled a 15. Additionally, no matter what you say, magic that would determine truthfulness would indicate you are telling the truth.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "extra-lucid",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Glyph of Warding",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 245]",
+      "rule",
+      "property | Casting time | 1 hour",
+      "property | Range | Touch",
+      "property | Components | V, S, M (incense and powdered diamond worth at least 200 gp)",
+      "property | Duration | Until dispelled or triggered",
+      "rule",
+      "fill | 2",
+      "text | You inscribe a glyph on a surface or object and set a trigger condition for it. The glyph either explodes dealing 5d8 elemental damage in a 20-ft. radius (DEX half) or triggers a spell of 3rd level or lower.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | Damage and spell slots increase by 1d8 or 1 level for each slot level above 3rd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "interdiction",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Greater Invisibility",
+    "contents": [
+      "subtitle | 4th-level illusion [PHB 246]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "invisible",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Greater Restoration",
+    "contents": [
+      "subtitle | 5th-level abjuration [PHB 246]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You reduce to target's exhaustion level by one, or end one of the following effects:",
+      "text | One Charm or Petrify effect; ",
+      "text | one curse, including attunement to a cursed item;",
+      "text | any one ability score reduction; or",
+      "text | one max HP reduction",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "strong",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Guards and Wards",
+    "contents": [
+      "subtitle | 6th-level abjuration [PHB 248]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | Touch",
+      "property | Components | V, S, M (burning incense, brimstone, oil, a knotted string, umber hulk blood, and a silver rod worth 10 gp)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | up to 2,500 square feet is warded. Corridors fill with fog, doors are magically locked, stairways are filled with webs, and other effects of your choice. This effect can become permanent if cast every day for 1 year.",
+      "text | Dispel Magic can only remove one of these effects at a time.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Hallucinatory Terrain",
+    "contents": [
+      "subtitle | 4th-level illusion [PHB 249]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | 300 feet",
+      "property | Components | V, S, M (a stone, a twig, and a bit of green plant)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | A 150-foot cube within range is changed to look, sound, and smell like another type of terrain. Creatures entering the terrain can tell it is not real, and an Investigation check can be used to discern an illusion.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "12",
+    "icon": "quake-stomp",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Healing Word",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 250]",
+      "rule",
+      "property | Casting time | 1 bonus action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A creature of your choice that you can see within range is healed 1d4 + you spellcasting ability modifier hit points. This has no effect on undead or constructs.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The creature heals an extra 1d4 hit points for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "bookmarklet",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Heat Metal",
+    "contents": [
+      "subtitle | 2nd-level transmutation [PHB 250]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | V, S, M (a piece of iron and a flame)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Any creature within range that is in physical contact with a metal object takes 2d8 fire damage. Creatures holding metal make a CON save or drop the item. Those that do not drop have disadvantage on attacks and ability checks until your next turn.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage increases by 1d8 for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "fire-shield",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Heroism",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 250]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | For the duration, the touched creature gains immunity to being Frightened and gains temporary HP equal to your spellcasting modifier each round. These temporary HP are lost when the spell ends.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "strong",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Hold Monster",
+    "contents": [
+      "subtitle | 5th-level enchantment [PHB 251]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 90 feet",
+      "property | Components | V, S, M (a small, straight piece of iron)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A creature within range must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the creature can make a new saving throw to end the effect.",
+      "fill | 3",
+      "section | At higher levels ",
+      "text | You can target one additional creature for each slot level above 5th used to cast this spell. All creatures targeted must be within 30 feet of each other."
+    ],
+    "color": "",
+    "icon": "cobweb",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Hypnotic Pattern",
+    "contents": [
+      "subtitle | 3rd-level illusion [PHB 252]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A hypnotic weave appears in a 30-foot cube within range. All creatures who see the pattern must make a Wisdom saving throw. On a failure, a creature becomes charmed for the duration. Creatures charmed this way are considered incapacitated and have a speed of 0. Damaging an affected creature ends the effect for that creature.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "suspicious",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Identify",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 252]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a pearl worth at least 100 gp)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You learn the magical properties of any item you hold while casting this spell, as well as how to use those properties. You learn what spells are affecting the object, as well as whether it was created by a spell or not, and which spell.",
+      "text | If you touch a creature while casting this spell instead, you learn which spells, if any, are currently affecting it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "magnifying-glass",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Illusory Script",
+    "contents": [
+      "subtitle | 1st-level illusion [PHB 252]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Touch",
+      "property | Components | S, M (a lead-based ink worth at least 10 gp, which the spell consumes)",
+      "property | Duration | 10 days",
+      "rule",
+      "fill | 2",
+      "text | You write a message that appears only to those you designate when casting this spell. All others who read it see only an unintelligible gaggle of words, or a different message altogether.",
+      "text | A creature with True Sight can see the message as normal, whether designated or not.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "scroll-unfurled",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Invisibility",
+    "contents": [
+      "subtitle | 2nd-level illusion [PHB 254]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (an eyelash encased in gum arabic)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | A creature you touch becomes invisible for the duration. Anything the target is wearing or carrying is also invisible. The spell ends if the target attacks or casts a spell.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "invisible",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Knock",
+    "contents": [
+      "subtitle | 2nd-level transmutation [PHB 254]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A mundane locked item is unlocked, unstuck, or unbarred. An arcane lock is suppressed for 10 minutes. This spell produces a knocking sound audible up to 300 feet away.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "three-keys",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Legend Lore",
+    "contents": [
+      "subtitle | 5th-level divination [PHB 254]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | Self",
+      "property | Components | V, S, M (incense worth 250 gp, and four ivory strips worth 50 gp each)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You find out information about a legendary figure or item that you name. The lore is always accurate, but possibly vague.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "book-cover",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Leomund's Tiny Hut",
+    "contents": [
+      "subtitle | 3rd-level evocation [PHB 255]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Self (10-foot radius hemisphere)",
+      "property | Components | V, S, M (a small crystal bead)",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | A 10-foot dome of force appears around and above you. Up to nine creatures plus you can fit inside the dome. Spells and other effects cannot be cast into or through the dome and you can control how bright it is inside. ",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "stone-tower",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Lesser Restoration",
+    "contents": [
+      "subtitle | 2nd-level abjuration [PHB 255]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You touch a creature and end one disease or condition (blinded, deafened, paralyzed, or poisoned) affecting it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "syringe",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Light",
+    "contents": [
+      "subtitle | Evocation cantrip [PHB 255]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, M (a firefly or phosphorescent moss)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You touch an object that is no larger than 10 feet in any one dimension. That object shines brightly for 20 feet, and dimly for 20 feet beyond that.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "torch",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Locate Animals/Plants",
+    "contents": [
+      "subtitle | 2nd-level divination [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a bit of fur from a bloodhound)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | Concentrating on the name of a specific kind of beast or plant, you learn the location and distance to the closest one matching your description within 5 miles, if any.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "11",
+    "icon": "laurels",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Locate Creature",
+    "contents": [
+      "subtitle | 4th-level divination [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a bit of fur from a bloodhound)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Describe or name a creature that is familiar to you, You sense the direction to the creature's location if that creature is within 1,000 feet of you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "radar-sweep",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Locate Object",
+    "contents": [
+      "subtitle | 2nd-level divination [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S, M (a forked twig)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | Describe or name an object that is familiar to you. If that object is within 1,000 feet of you then you know the direction and distance to it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "tree-branch",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Longstrider",
+    "contents": [
+      "subtitle | 1st-level transmutation [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a pinch of dirt)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Touched creature's speed increases by 10 feet for the duration.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | You can target one additional creature for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "run",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mage Hand",
+    "contents": [
+      "subtitle | Conjuration cantrip [PHB 256]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A spectral, floating hand appears within range for the duration. You can move the hand up to 30 feet as an action. It can manipulate objects and open doors and containers. It cannot attack, activate magic items, or carry more than 10 pounds.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "magic-palm",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Magic Mouth",
+    "contents": [
+      "subtitle | 2nd-level illusion [PHB 257]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (a small bit of honeycomb and jade dust worth at least 10 gp)",
+      "property | Duration | Until; dispelled",
+      "rule",
+      "fill | 2",
+      "text | You speak a message and set a trigger condition for the message to be delivered. You can choose to have the spell end when the message is delivered or repeat the message each time the trigger condition is met.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "swallow",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Major Image",
+    "contents": [
+      "subtitle | 3rd-level illusion [PHB 258]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S, M (a bit of fleece)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You create an image that moves, smells, and even gives off temperature appropriate to the image it depicted. As long as you are in range of the illusion, you can control it and alter its appearance so as to appear realistic. A creature who uses its action to examine the illusion can make an Investigation check to determine the reality of the illusion.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | If you cast this spell with a slot of 6th level or higher it does not require your concentration to be maintained."
+    ],
+    "color": "",
+    "icon": "duality",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mass Cure Wounds",
+    "contents": [
+      "subtitle | 5th-level conjuration [PHB 258]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | Choose up to 6 creatures within 30 feet of a point you choose within range. Each creature regains 3d8 + your spellcasting modifier hit points. This spell has no effect on undead or constructs.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The hit points regained increases by 1d8 for each slot level above 5th used to cast this spell."
+    ],
+    "color": "",
+    "icon": "hospital-cross",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mass Suggestion",
+    "contents": [
+      "subtitle | 6th-level enchantment [PHB 258]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, M (a snake's tongue and either a bit of honeycomb or a drop of sweet oil)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | You suggest a course of action and magically influence up to twelve creatures within range to perform that action. Each target makes a Wisdom saving throw or is compelled to complete the suggested task.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The duration increases to 10 days with a 7th level slot, 30 days with an 8th, and a year and a day with a 9th."
+    ],
+    "color": "",
+    "icon": "slavery-whip",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mending",
+    "contents": [
+      "subtitle | Transmutation cantrip [PHB 259]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Touch",
+      "property | Components | V, S, M (two lodestones)",
+      "property | Duration | instantaneous",
+      "rule",
+      "fill | 2",
+      "text | This spell repairs a single break or tear in an object you touch. This can physically restore a magic item or construct, but cannot restore the magical abilities to such items.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "pointy-hat",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Message",
+    "contents": [
+      "subtitle | Transmutation cantrip [PHB 259]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S, M (a short piece of copper wire)",
+      "property | Duration | 1 round",
+      "rule",
+      "fill | 2",
+      "text | You point your finger at a creature within range and whisper a message. The target hears the message and can reply in a whisper that only you can hear.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "conversation",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mind Blank",
+    "contents": [
+      "subtitle | 8th-level abjuration [PHB 259]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | For the duration, the touched target is immune to psychic damage, any effect that would read its emotions or thoughts, divination spells, and the charmed condition.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "cowled",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Minor Illusion",
+    "contents": [
+      "subtitle | Illusion cantrip [PHB 260]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | S, M (a bit of fleece)",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You create a sound or image within range that lasts for the duration. ",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "backup",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mirage Arcane",
+    "contents": [
+      "subtitle | 7th-level illusion [PHB 260]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | Sight",
+      "property | Components | V, S",
+      "property | Duration | 10 days",
+      "rule",
+      "fill | 2",
+      "text | You make terrain in an area up to 1 square mile look, sound, smell and even feel like some other sort of terrain. A creature with True Sight can see through the illusion to the terrain's true form, but can still physically interact with the illusion. Any illusory object taken out of the area of effect disappears immediately.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "dark-squad",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mislead",
+    "contents": [
+      "subtitle | 5th-level illusion [PHB 260]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | S",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You become invisible as an illusory double of yourself appears where you are standing. The double lasts for the duration, but your invisibility ends if you cast a spell or attack. You can use your action to direct the double up to twice your speed and make it gesture, speak and behave in any way you choose.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "inner-self",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Modify Memory",
+    "contents": [
+      "subtitle | 5th-level enchantment [PHB 261]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A creature that you can see within range makes a Wisdom saving throw or is charmed by you. While the charm lasts you can affect the target's memory of an event that happened within the last 24 hours and lasted no more than 10 minutes.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | By using a higher slot level, you can modify an event that happened up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)."
+    ],
+    "color": "",
+    "icon": "paranoia",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "MK's Magnificent Mansion",
+    "contents": [
+      "subtitle | 7th-level conjuration [PHB 261]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | 300 feet",
+      "property | Components | V, S, M (a mini portal carved from ivory, polished marble, and a tiny silver spoon)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | You create an extradimensional dwelling, complete with near-transparent servants and a banquet of food fit for up to 100 people. ",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "10",
+    "icon": "capitol",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Mordenkainen's Sword",
+    "contents": [
+      "subtitle | 7th-level evocation [PHB 262]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a miniature platinum sword worth 250 gp)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A sword appears floating in the air. You can make a melee spell attack on a creature within 5 feet of the sword each turn. On a hit, the sword deals 3d10 force damage. You can move the sword up to 20 feet each round before attacking.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "12",
+    "icon": "sword-in-stone",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Nondetection",
+    "contents": [
+      "subtitle | 3rd-level abjuration [PHB 263]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a pinch of diamond dust worth 25 gp)",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | For the duration the creature you touch cannot be targeted by divination magic or perceived through magical scrying sensors. This effect can also be placed over an area or object no larger than 10 feet in any dimension.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "radar-sweep",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Otto's Irresistable Dance",
+    "contents": [
+      "subtitle | 6th-level enchantment [PHB 264]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A creature within range starts dancing in place, using all of its movement each turn to dance. Creatures immune to charm cannot be affects. Dancing creatures have disadvantage on Dexterity saving throws and attack rolls, and anyone attacking a dancing creature has advantage.",
+      "text | As an action, a dancing creature can make a Wisdom saving throw to end this effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "10",
+    "icon": "anthem",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Phantasmal Force",
+    "contents": [
+      "subtitle | 2nd-level illusion [PHB 264]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a bit of fleece)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You create an illusion which appears only to one creature within range. The creature can make an Intelligence saving throw upon casting to ignore this effect. At any time, the creature can make an Investigation check to discover the illusion. Otherwise the creature treats the illusion as being real in every way, and can even take damage from it.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "ghost",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Planar Binding",
+    "contents": [
+      "subtitle | 5th-level abjuration [PHB 265]",
+      "rule",
+      "property | Casting time | 1 hour",
+      "property | Range | 60 feet",
+      "property | Components | V. S. M (a jewel worth at least 1,000 gp)",
+      "property | Duration | 24 hours",
+      "rule",
+      "fill | 2",
+      "text | You bind a celestial, elemental, fiend, or fey to your service for the duration. The creature must be present for the entirety of the spellcasting and makes a Charisma saving throw. If it fails the save, it is bound to do your bidding for the duration.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The duration increases to 10 days if a 7th-level slot is used, 180 days for an 8th, and a year and a day for a 9th."
+    ],
+    "color": "",
+    "icon": "imprisoned",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Plant Growth",
+    "contents": [
+      "subtitle | 3rd-level transmutation [PHB 266]",
+      "rule",
+      "property | Casting time | 1 action or 8 hours",
+      "property | Range | 150 feet",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | If cast as an action, choose a spot within range that you can see. All plant life within 100 feet of that spot becomes thick and overgrown and creatures must spend 4 feet of movement to move 1 foot.",
+      "text | If cast as 8 hours, you enrich the land within half a mile. The plants within range become enriched for 1 year, yielding twice the normal amount of food when harvested.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "high-grass",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Polymorph",
+    "contents": [
+      "subtitle | 4th-level transmutation [PHB 266]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a caterpillar cocoon)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | A creature within range is transformed into a new form. This new form can have a CR of up to the transformed creature's CR or level. An unwilling creature can make a Wisdom saving throw to avoid this effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "wolf-howl",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Power Word Heal",
+    "contents": [
+      "subtitle | 9th-level evocation [PHB 266]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | The touched creature regains all of its hit points and is cured of the charmed, frightened, paralyzed, or stunned conditions. If the creature is prone it can stand up as a reaction. This spell has no effect on undead or constructs.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "hospital-cross",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Power Word Kill",
+    "contents": [
+      "subtitle | 9th-level enchantment [PHB 266]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You target one creature within range. If that creature has 100 or fewer hit points, it dies instantly. If it has more than 100 hit points, this spell has no effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "grim-reaper",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Power Word Stun",
+    "contents": [
+      "subtitle | 8th-level enchantment [PHB 267]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You target a creature within range. If that creature has 150 hit points or less, it is stunned, otherwise the spell does nothing. On each of its turns the creature makes a Constitution saving throw. On a successful save, the creature is no longer stunned.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "back-pain",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Prestidigitation",
+    "contents": [
+      "subtitle | Transmutation cantrip [PHB 267]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 10 feet",
+      "property | Components | V, S",
+      "property | Duration | Up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | With this spell you can: create a harmless sensory effect; light or snuff a small fire or candle; clean or soil a small object; chill, warm or flavor nonliving material; make a color or mark appear on a surface for 1 hour; create a trinket in your hand until your next turn.",
+      "text | you can have up to 3 non-instantaneous effects active at once.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "usable",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Programmed Illusion",
+    "contents": [
+      "subtitle | 6th-level illusion [PHB 269]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S, M (a bit of fleece and jade dust worth 25 gp)",
+      "property | Duration | Until dispelled",
+      "rule",
+      "fill | 2",
+      "text | You set an illusion with a trigger condition. The illusion is imperceptible before it is triggered and the programmed performance can be up to 5 minutes in length. ",
+      "text | When the condition you specify occurs, the illusion springs to life, performs its programmed function, then disappears and resets after 10 minutes, ready to be triggered again. ",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "magic-swirl",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Project Image",
+    "contents": [
+      "subtitle | 7th-level illusion [PHB 270]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 500 miles",
+      "property | Components | V, S, M (a small replica of you worth at least 5 gp)",
+      "property | Duration | Concentration, up to 1 day",
+      "rule",
+      "fill | 2",
+      "text | You create an illusory image of yourself that lasts for the duration. The illusion looks and sounds like you and can appear anywhere within range that you have seen before. As a bonus action on your turn, you can see through the illusion's eyes and move it up to 30 feet per round.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "dodging",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Regenerate",
+    "contents": [
+      "subtitle | 7th-level transmutation [PHB 271]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Touch",
+      "property | Components | V, S, M (a prayer wheel and holy water)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | Touched creature regains 4d8 + 15 hit points instantly. For the duration, the target also regains 1 hit point at the start of each turn (10 HP per minute).",
+      "text | The target's severed body members are restored after 2 minutes as long as you hold the severer part against the stump.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "internal-organ",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Resurrection",
+    "contents": [
+      "subtitle | 7th-level necromancy [PHB 272]",
+      "rule",
+      "property | Casting time | 1 hour",
+      "property | Range | Touch",
+      "property | Components | V, S, M (1 diamond worth 1,000 gp)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You touch a dead creature that has been dead no more than a century that didn't die of old age and isn't undead, and bring it back to life.",
+      "text | Creatures brought back this way take a -4 penalty on attack rolls, saves, and ability checks, decreasing the penalty by 1 for every long rest completed.",
+      "text | After casting this spell, you cannot cast spells and have disadvantage on attacks, saves, and ability checks until you finish a long rest.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "bandaged",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Scrying",
+    "contents": [
+      "subtitle | 5th-level divination [PHB 273]",
+      "rule",
+      "property | Casting time | 10 minutes",
+      "property | Range | Self",
+      "property | Components | V, S, M (a focus worth at least 1,000 gp)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You attempt to see and hear a particular creature you choose that is on the same plane of existence. The target makes a Wisdom save, which is modified by the target's knowledge and physical connection to you. ",
+      "text | On a successful save, the spell fails and you cannot target that creature again for 24 hours. On a failure, you see all within 10 feet of the target.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "crystal-ball",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "See Invisibility",
+    "contents": [
+      "subtitle | 2nd-level divination [PHB 274]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | self",
+      "property | Components | V, S, M (a pinch of talc and a small sprinkling of silver powder)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | For the duration you can see invisible creatures and objects as if they were visible. You also see into the Ethereal Plane. Ethereal creatures and objects appear translucent and ghostly.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "gaze",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Seeming",
+    "contents": [
+      "subtitle | 5th-level illusion [PHB 274]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S",
+      "property | Duration | 8 hours",
+      "rule",
+      "fill | 2",
+      "text | You change the appearance of up to 8 creatures within range, giving each target a new, illusory appearance. Creatures can make an Investigation check to discern the illusions for what they are.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "wolf-howl",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Sending",
+    "contents": [
+      "subtitle | 3rd-level evocation [PHB 274]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Unlimited",
+      "property | Components | V, S, M (a short piece of fine copper wire)",
+      "property | Duration | 1 round",
+      "rule",
+      "fill | 2",
+      "text | You send a short message to any creature with which you are familiar. The creature hears the message in its mind and can respond immediately.",
+      "text | This can send a message across any distance and even to other planes of existence, but there is a 5% chance it fails if the recipient is on another plane.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "conversation",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Shatter",
+    "contents": [
+      "subtitle | 2nd-level evocation [PHB 275]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a chip of mica)",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A sudden loud, ringing noise emanates in a 10-foot radius from a point you designate within range. Creatures within the area take 2d8 thunder damage, with a Constitution saving throw for half damage.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage increases by 1d8 for each slot level above 2nd used to cast this spell."
+    ],
+    "color": "",
+    "icon": "cracked-glass",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Silence",
+    "contents": [
+      "subtitle | 2nd-level illusion [PHB 275]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 120 feet",
+      "property | Components | V, S",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | For the duration, no sound can enter or pass trough a 20-foot radius sphere centered on a point you designate within range. Any creature or object entirely inside the sphere is immune to thunder damage, and are deafened while inside. Spells that require verbal components are impossible in the sphere.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "nothing-to-say",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Silent Image",
+    "contents": [
+      "subtitle | 1st-level illusion [PHB 276]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a bit of fleece)",
+      "property | Duration | Concentration, up to 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You create an image of an object or creature that is no larger than a 15-foot cube. The image gives off no sound, smells, or any other sensory effects. You can move the image as an action to any spot within range, and can manipulate it so that the movement appears normal, like a humanoid walking.",
+      "text | Creatures can make an Investigation check to discern the illusion.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "duality",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Sleep",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 276]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 90 feet",
+      "property | Components | V, S, M (a pinch of fine sand, rose petals)",
+      "property | Duration | 1 minute",
+      "rule",
+      "fill | 2",
+      "text | Roll 5d8 to determine how many hit points in creatures you can affect with this spell. Starting with the creature with the lowest hit points within 20 feet of a spot you designate within range, creatures fall asleep until all of the hit points rolled are used up.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | Increase the hit points put to sleep by 2d8 for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "sleepy",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Speak with Animals",
+    "contents": [
+      "subtitle | 1st-level divination [PHB 277]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self",
+      "property | Components | V, S",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You gain the ability to speak and understand beasts for the duration.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "vulture",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Speak with Dead",
+    "contents": [
+      "subtitle | 3rd-level necromancy [PHB 277]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 10 feet",
+      "property | Components | V, S, M (burning incense)",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | A corpse within range that has not been the target of this spell in the last 10 days answers up to five questions over the duration. The corpse knows only what it knew in life.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "pirate-grave",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Speak with Plants",
+    "contents": [
+      "subtitle | 3rd-level transmutation [PHB 277]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (30-foot radius)",
+      "property | Components | V, S",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You grant plants within 30 feet of you sentience and the ability to communicate with you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "pollen-dust",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Stinking Cloud",
+    "contents": [
+      "subtitle | 3rd-level conjuration [PHB 278]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 90 feet",
+      "property | Components | V, S, M (a rotten egg or several skunk cabbage leaves)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | You create a 20-foot radius cloud of yellow gas centered on a spot within range. Creatures that start completely within the cloud must make a Constitution saving throw or spend their turn retching and reeling. Creatures that do not need to breathe are immune to this effect.",
+      "fill | 3",
+      ""
+    ],
+    "color": "",
+    "icon": "poison-gas",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Suggestion",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 279]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, M (a snake's tongue and honeycomb or sweet oil)",
+      "property | Duration | Concentration, up to 8 hours",
+      "rule",
+      "fill | 2",
+      "text | You suggest a course of action for a target within range. The target makes a Wisdom saving throw. On a failure, it performs the suggested course of action to the best of its ability.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "charm",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Symbol",
+    "contents": [
+      "subtitle | 7th-level abjuration [PHB 280]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | Touch",
+      "property | Components | V, S, M (mercury, phosphorous, and powdered diamond and opal worth 1,000 gp)",
+      "property | Duration | Until dispelled or triggered",
+      "rule",
+      "fill | 2",
+      "text | You transcribe a glyph or rune that triggers on a condition you set and can cause: death; discord; fear; hopelessness; insanity; pain; sleep; or stunning",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "james-bond-aperture",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Tasha's Hideous Laughter",
+    "contents": [
+      "subtitle | 1st-level enchantment [PHB 280]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (tiny tarts and a feather)",
+      "property | Duration | Concentration, up to 1 minute",
+      "rule",
+      "fill | 2",
+      "text | A creature you can see within range must make a Wisdom saving throw or falls prone in laughter and is incapacitated for the duration. Each round, and each time it takes damage, the creature can make a new Wisdom saving throw to end this effect. The target has advantage on this save if it is triggered by damage.",
+      "fill | 3"
+    ],
+    "color": "",
+    "title_size": "10",
+    "icon": "gluttony",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Teleport",
+    "contents": [
+      "subtitle | 7th-level conjuration [PHB 281]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 10 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | You transport yourself and up to eight willing creatures or a 10-foot cube to a destination on the same plane of existence that is known to you.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "teleport",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Teleportation Circle",
+    "contents": [
+      "subtitle | 5th-level conjuration [PHB 282]",
+      "rule",
+      "property | Casting time | 1 minute",
+      "property | Range | 10 feet",
+      "property | Components | V, M (rare chalks and inks worth 50 gp)",
+      "property | Duration | 1 round",
+      "rule",
+      "fill | 2",
+      "text | You draw a 10-foot diameter circle on the ground, linking that location with a permanent teleportation circle somewhere else on the same plane of existence. You can create a permanent teleportation circle by casting this spell every day for one year.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "teleport",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Thunderwave",
+    "contents": [
+      "subtitle | 1st-level evocation [PHB 282]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Self (15-foot cube)",
+      "property | Components | V, S",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | Creatures within a 15-foot cube of you take 2d8 thunder damage and are pushed 10 feet away. If they make a Constitution saving throw they take half damage and are not pushed.",
+      "fill | 3",
+      "section | At higher levels",
+      "text | The damage increases by 1d8 for each slot level above 1st used to cast this spell."
+    ],
+    "color": "",
+    "icon": "lightning-shout",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Tongues",
+    "contents": [
+      "subtitle | 3rd-level divination [PHB 283]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, M (a small clay model of a ziggurat)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | The touched creature gains the ability to speak and understand any language for the duration.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "shouting",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "True Polymorph",
+    "contents": [
+      "subtitle | 9th-level transmutation [PHB 283]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | V, S, M (1 drop of mercury, a dollop of gum arabic, and a wisp of smoke)",
+      "property | Duration | Concentration, up to 1 hour",
+      "rule",
+      "fill | 2",
+      "text | You choose one creature or object within range to transform into another creature or object for the duration. Creatures get a Wisdom saving throw to resist this effect.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "duality",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "True Seeing",
+    "contents": [
+      "subtitle | 6th-level divination [PHB 284]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | Touch",
+      "property | Components | V, S, M (an ointment for the eyes that costs 25 gp)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | For the duration, a willing creature you touched has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "behold",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "True Stirke",
+    "contents": [
+      "subtitle | Divination cantrip [PHB 284]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 30 feet",
+      "property | Components | S",
+      "property | Duration | Concentration, up to 1 round",
+      "rule",
+      "fill | 2",
+      "text | You have advantage on the next attack roll you make against the target creature before the end of your next turn.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "bowman",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Unseen Servant",
+    "contents": [
+      "subtitle | 1st-level conjuration [PHB 284]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S, M (a piece of string and a piece of wood)",
+      "property | Duration | 1 hour",
+      "rule",
+      "fill | 2",
+      "text | An invisible force appears and follows your commands and performs mundane tasks for you for the duration. The force cannot attack and has 1 hit point. It disappears if it is more than 60 feet away from you at any point for the duration.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon_back": "double-quaver",
+    "icon": "slavery-whip"
+  },
+  {
+    "count": 1,
+    "title": "Vicious Mockery",
+    "contents": [
+      "subtitle | Enchantment cantrip [PHB 285]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V",
+      "property | Duration | Instantaneous",
+      "rule",
+      "fill | 2",
+      "text | A target within range that can hear you must make a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack it makes before the end of its next turn. This damage increases to 2d4 at 5th level, 3d4 at 11th level, and 4d4 at 17th level.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "imp-laugh",
+    "icon_back": "double-quaver"
+  },
+  {
+    "count": 1,
+    "title": "Zone of Truth",
+    "contents": [
+      "subtitle | 2nd-level enchantment [PHB 289]",
+      "rule",
+      "property | Casting time | 1 action",
+      "property | Range | 60 feet",
+      "property | Components | V, S",
+      "property | Duration | 10 minutes",
+      "rule",
+      "fill | 2",
+      "text | You create a 15-foot radius area where creature can only speak truth. Creatures within this area make a Charisma saving throw. On a failure, they cannot willingly tell a lie. You know whether each creature in the area succeeds or fails its save. Creatures in the area also know they are under the effects of this spell and can thus refuse to answer a question they would normally lie in response to.",
+      "fill | 3"
+    ],
+    "color": "",
+    "icon": "aerial-signal",
+    "icon_back": "double-quaver"
+  }
+]
