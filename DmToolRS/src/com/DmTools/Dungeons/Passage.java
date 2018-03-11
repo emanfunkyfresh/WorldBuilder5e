@@ -7,81 +7,88 @@ import com.DmTools.Instruments.DiceBag;
 public class Passage {
 	private String direction;
 	private String distForward;
-	private int width;
+	private String width;
 	List<Passage> passages;
 	List<Door> doors;
 	private DiceBag dbag;
 
 	public Passage(int i, int j, String direction) {
 
-		int[] widths = { 5, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 20, 20, 30, 30, 40, 40, 40, 40, 40 };
-
+		String[] widths = { "5ft wide", "5ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide",
+				"20ft wide", "20ft wide", "30ft wide", "30ft wide", "40ft wide","40ft wide with row of pilliars down the middle",
+				"40ft wide with double row of pilliars", "40ft wide, 20ft high",
+				"40ft wide, 20ft high with pillars in the middle" };
 		width = widths[j];
 		this.direction = direction;
 
 		switch (i) {
-
-		case 1 :
+		default:
+			passages.add(new Chamber(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			break;
+		case 1:
 			distForward = "30ft";
 			break;
 		case 2:
 			distForward = "30ft";
 			break;
 		case 3:
-			distForward = "March";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
 			break;
 		case 4:
-			distForward = "April";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
 			break;
 		case 5:
-			distForward = "May";
+			distForward = "20ft";
+			doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
 			break;
 		case 6:
-			distForward = "June";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
 			break;
 		case 7:
-			distForward = "July";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
 			break;
 		case 8:
-			distForward = "August";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
 			break;
 		case 9:
-			distForward = "September";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
 			break;
 		case 10:
-			distForward = "October";
+			distForward = "20ft";
+			if (dbag.roll(1, 100) <= 10)
+				doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "secret"));
 			break;
 		case 11:
-			distForward = "November";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
 			break;
 		case 12:
-			distForward = "December";
-			break;			
-		case 13 :
-			distForward = "30ft";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
+			break;
+		case 13:
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
 			break;
 		case 14:
-			distForward = "30ft";
-			break;
-		case 15:
-			distForward = "March";
-			break;
-		case 16:
-			distForward = "April";
-			break;
-		case 17:
-			distForward = "May";
-			break;
-		case 18:
-			distForward = "June";
-			break;
-		case 19:
-			distForward = "July";
+			distForward = "20ft";
+			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
 			break;
 		case 20:
-			distForward = "August";
+			passages.add(new Stairs(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
 			break;
-	
 
 		}
 	}

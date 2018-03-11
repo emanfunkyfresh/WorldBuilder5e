@@ -15,7 +15,7 @@ public class StartingArea {
 	public StartingArea(String struct, String des, String dir) {
 		this.structure = struct;
 		this.desc = des;
-		String[] pos = { "North", "South", "West", "East" };
+		String[] pos = { "Up", "Down", "Left", "Right" };
 
 		for (int i = 0; i < 4; i++) {
 			if (dir.charAt(i) == 'd') {
