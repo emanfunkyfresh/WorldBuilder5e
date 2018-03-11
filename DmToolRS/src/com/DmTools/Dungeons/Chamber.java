@@ -28,7 +28,7 @@ public class Chamber extends Passage {
 	private void buildExits(int j) {
 		String [] dir = {"Forward", "left","Right"};
 		
-		if (distForward.contains("Large")) 
+		if (width.contains("Large")) 
 			numExits = j%6;	
 		else 
 			numExits = j%4;
@@ -61,7 +61,10 @@ public class Chamber extends Passage {
 				"Octagon - 40ft x 40ft. Diameter, small", "Octagon - 60ft x 60ft. Diameter, small",
 				"Trapezoid- 40ft x 60ft" };
 
-		distForward = desc[i];
+		width = desc[i];
 	}
 
+	public String toString() {
+		return width;
+	}
 }

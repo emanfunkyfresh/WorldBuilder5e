@@ -41,16 +41,8 @@ public class Dungeon {
 
 	@Override
 	public String toString() {
-		return purpose+":\n\t"+start.toString()+LayPassages();
+		return purpose+":\n\t"+start.toString();
 	}
 
-	private String LayPassages() {
-		String line = null; 
-		for(int i=0; i < start.getPassages().toArray().length;i++) {
-			line += "\n\t\t" + start.getPassages().toArray()[i].toString();
-		}
-		
-		return line;
-	}
 
 }
