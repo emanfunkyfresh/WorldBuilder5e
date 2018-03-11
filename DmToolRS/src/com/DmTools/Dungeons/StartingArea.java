@@ -19,14 +19,28 @@ public class StartingArea {
 
 		for (int i = 0; i < 4; i++) {
 			if (dir.charAt(i) == 'd') {
-				doors.add(new Door(dbag.roll(1, 20),dbag.roll(1, 20), pos[i]));
+				doors.add(new Door(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1, pos[i]));
 			}
 
 			else if (dir.charAt(i) == 'p') {
-				passages.add(new Passage(dbag.roll(1, 20),dbag.roll(1, 20), pos[i]));
+				passages.add(new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1, pos[i]));
 			}
 
 		}
 
+	}
+
+	public String formatPassages() {
+		return "";
+	}
+	
+	public String formatDoors() {
+		return "";
+	}
+	
+	
+	@Override
+	public String toString() {
+		return structure+"("+desc+")";
 	}
 }

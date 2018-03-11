@@ -6,24 +6,24 @@ import com.DmTools.Instruments.DiceBag;
 
 public class Passage {
 	private String direction;
-	private String distForward;
-	private String width;
-	List<Passage> passages;
-	List<Door> doors;
-	private DiceBag dbag;
+	protected String distForward;
+	protected String width;
+	private List<Passage> passages;
+	private List<Door> doors;
+	protected DiceBag dbag;
 
 	public Passage(int i, int j, String direction) {
 
-		String[] widths = { "5ft wide", "5ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide",
-				"20ft wide", "20ft wide", "30ft wide", "30ft wide", "40ft wide","40ft wide with row of pilliars down the middle",
-				"40ft wide with double row of pilliars", "40ft wide, 20ft high",
-				"40ft wide, 20ft high with pillars in the middle" };
+		String[] widths = { "5ft wide", "5ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide",
+				"10ft wide", "10ft wide", "10ft wide", "10ft wide", "20ft wide", "20ft wide", "30ft wide", "30ft wide",
+				"40ft wide", "40ft wide with row of pilliars down the middle", "40ft wide with double row of pilliars",
+				"40ft wide, 20ft high", "40ft wide, 20ft high with pillars in the middle" };
 		width = widths[j];
 		this.direction = direction;
 
 		switch (i) {
 		default:
-			passages.add(new Chamber(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			passages.add(new Chamber(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 		case 1:
 			distForward = "30ft";
@@ -91,5 +91,10 @@ public class Passage {
 			break;
 
 		}
+	}
+
+	public Passage() 
+	{
+	
 	}
 }
