@@ -2,8 +2,10 @@ package com.DmTools.Dungeons;
 
 import com.DmTools.Instruments.DiceBag;
 
-public class Dungeon {
 
+
+public class Dungeon {
+	public static int remaining = 50;
 	private StartingArea start;
 	private String purpose;
 	private DiceBag dbag = new DiceBag();
@@ -39,7 +41,16 @@ public class Dungeon {
 
 	@Override
 	public String toString() {
-		return purpose+":\n\t"+start.toString();
+		return purpose+":\n\t"+start.toString()+LayPassages();
+	}
+
+	private String LayPassages() {
+		String line = null; 
+		for(int i=0; i < start.getPassages().toArray().length;i++) {
+			line += "\n\t\t" + start.getPassages().toArray()[i].toString();
+		}
+		
+		return line;
 	}
 
 }

@@ -15,8 +15,13 @@ public class Chamber extends Passage {
 		super();
 		// TODO Auto-generated constructor stub
 
-		buildRoom(i);
-		buildExits(j);
+		if (Dungeon.remaining > 0) {
+			buildRoom(i);
+			buildExits(j);
+		}
+		Dungeon.remaining --;
+		
+		
 		
 	}
 

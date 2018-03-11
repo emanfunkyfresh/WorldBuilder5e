@@ -7,12 +7,22 @@ import com.DmTools.Instruments.DiceBag;
 
 public class Door {
 
-	private DiceBag dbag;
+	private DiceBag dbag = new DiceBag();
 	private String doorType;
 	private ArrayList<Passage> beyondTheDoor = new ArrayList<>();
 	
 
 	public Door(int roll, int i, String string) {
+
+		if (Dungeon.remaining > 0) {
+			buildDoor(roll,i,string);
+		}
+		Dungeon.remaining --;
+		
+				
+	}
+
+	private void buildDoor(int roll,int i,String direction) {
 
 		String[] type = { "Wooden", "Wooden", "Wooden", "Wooden", "Wooden", "Wooden", "Wooden", "Wooden", "Wooden",
 				"Wooden", "Wooden (Locked)", "Wooden (locked)", "Stone", "Stone (locked)", "Iron", "Iron (locked)",
@@ -48,7 +58,7 @@ public class Door {
 		else {
 			//Trap behind door
 		}
-		
-	}
 
+	}
+	
 }

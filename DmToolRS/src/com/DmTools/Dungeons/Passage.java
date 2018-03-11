@@ -14,6 +14,18 @@ public class Passage {
 	protected DiceBag dbag = new DiceBag();
 
 	public Passage(int i, int j, String direction) {
+		
+		if (Dungeon.remaining > 0) {
+			buildPassage(i,j,direction);
+		}
+		Dungeon.remaining --;
+	}
+
+	public Passage() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private void buildPassage(int i,int j, String direction) {
 
 		String[] widths = { "5ft wide", "5ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide", "10ft wide",
 				"10ft wide", "10ft wide", "10ft wide", "10ft wide", "20ft wide", "20ft wide", "30ft wide", "30ft wide",
@@ -34,68 +46,70 @@ public class Passage {
 			break;
 		case 3:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
-			doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
+			doors.add(new Door(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Right"));
 			break;
 		case 4:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
-			doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
+			doors.add(new Door(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Left"));
 			break;
 		case 5:
 			distForward = "20ft";
-			doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			doors.add(new Door(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 		case 6:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Right"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 		case 7:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Right"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 		case 8:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Left"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 		case 9:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Left"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 		case 10:
 			distForward = "20ft";
 			if (dbag.roll(1, 100) <= 10)
-				doors.add(new Door(dbag.roll(1, 20), dbag.roll(1, 20), "secret"));
+				doors.add(new Door(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "secret"));
 			break;
 		case 11:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Left"));
 			break;
 		case 12:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Left"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Left"));
 			break;
 		case 13:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Right"));
 			break;
 		case 14:
 			distForward = "20ft";
-			passages.add(new Passage(dbag.roll(1, 20), dbag.roll(1, 20), "Right"));
+			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Right"));
 			break;
 		case 20:
-			passages.add(new Stairs(dbag.roll(1, 20), dbag.roll(1, 20), "Forward"));
+			passages.add(new Stairs(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
 			break;
 
 		}
+		
 	}
 
-	public Passage() 
-	{
+	public String toString(){
 	
+		return "Passage "+ direction+": "+distForward+" width";
+		
 	}
 }

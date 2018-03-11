@@ -27,22 +27,17 @@ public class StartingArea {
 			else if (dir.charAt(i) == 'p') {
 				passages.add(new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1, pos[i]));
 			}
-
+			Dungeon.remaining = 50;
 		}
 
 	}
-
-	public String formatPassages() {
-		return "";
-	}
-	
-	public String formatDoors() {
-		return "";
-	}
-	
 	
 	@Override
 	public String toString() {
 		return structure+"("+desc+")";
+	}
+
+	public ArrayList getPassages() {
+		return passages;
 	}
 }
