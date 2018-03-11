@@ -11,7 +11,7 @@ public class DiceBag
 			return 0;
 		
 		else
-			return ((new Random()).nextInt()%sides) + 1 + roll(roll - 1, sides);
+			return ((new Random()).nextInt(100000)%sides) + 1 + roll(roll - 1, sides);
 	}
 	
 	public int roll(int roll, int sides, int mod) 
@@ -20,7 +20,7 @@ public class DiceBag
 			return mod;
 		
 		else
-			return ((new Random()).nextInt()%sides) + 1 + roll(roll - 1, sides);
+			return ((new Random()).nextInt(100000)%sides) + 1 + roll(roll - 1, sides);
 	}
 	
 }

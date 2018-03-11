@@ -1,5 +1,6 @@
 package com.DmTools.Dungeons;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.DmTools.Instruments.DiceBag;
@@ -8,9 +9,10 @@ public class StartingArea {
 
 	private String structure;
 	private String desc;
-	List<Passage> passages;
-	List<Door> doors;
-	private DiceBag dbag;
+	private ArrayList<Passage> passages = new ArrayList<>();
+	private ArrayList<Door> doors = new ArrayList<>();
+	
+	private DiceBag dbag = new DiceBag();
 
 	public StartingArea(String struct, String des, String dir) {
 		this.structure = struct;

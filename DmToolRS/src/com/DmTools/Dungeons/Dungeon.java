@@ -6,11 +6,12 @@ public class Dungeon {
 
 	private StartingArea start;
 	private String purpose;
-	private DiceBag dbag;
+	private DiceBag dbag = new DiceBag();
 
 	public Dungeon() {
-		super();
-		constructStartingArea(dbag.roll(1, 10) - 1);
+		int x = dbag.roll(1, 10) - 1;
+		System.out.println(x);
+		constructStartingArea(x);
 		determinePurpose();
 	}
 
@@ -33,7 +34,7 @@ public class Dungeon {
 
 		String[] egress = { "pppp", "ddpx", "dddx", "dpdp", "pppp", "pppp", "pppp", "ddpd", "pppx", "pppp" };
 
-		start = new StartingArea(shape[roll - 1], desc[roll - 1], egress[roll - 1]);
+		start = new StartingArea(shape[roll], desc[roll], egress[roll]);
 	}
 
 	@Override

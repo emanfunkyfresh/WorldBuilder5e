@@ -1,13 +1,15 @@
 package com.DmTools.Dungeons;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Chamber extends Passage {
 
 	private int numExits;
 	private String direction;
-	List<Door> doors;
-	List<Passage> passages;
+	private ArrayList<Passage> passages = new ArrayList<>();
+	private ArrayList<Door> doors = new ArrayList<>();
+	
 	
 	public Chamber(int i, int j, String direction) {
 		super();

@@ -1,5 +1,6 @@
 package com.DmTools.Dungeons;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.DmTools.Instruments.DiceBag;
@@ -8,9 +9,9 @@ public class Passage {
 	private String direction;
 	protected String distForward;
 	protected String width;
-	private List<Passage> passages;
-	private List<Door> doors;
-	protected DiceBag dbag;
+	private ArrayList<Passage> passages = new ArrayList<>();
+	private ArrayList<Door> doors = new ArrayList<>();
+	protected DiceBag dbag = new DiceBag();
 
 	public Passage(int i, int j, String direction) {
 

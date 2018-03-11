@@ -1,5 +1,6 @@
 package com.DmTools.Dungeons;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.DmTools.Instruments.DiceBag;
@@ -8,7 +9,8 @@ public class Door {
 
 	private DiceBag dbag;
 	private String doorType;
-	private List<Passage> beyondTheDoor;
+	private ArrayList<Passage> beyondTheDoor = new ArrayList<>();
+	
 
 	public Door(int roll, int i, String string) {
 
@@ -19,20 +21,28 @@ public class Door {
 		doorType = type[i];
 		
 		if (roll >= 3 && roll <= 8) {
-			beyondTheDoor.add(new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Forward"));
+			Passage p = new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Forward"); 
+			beyondTheDoor.add(p);
 		}
 		
 		else if (roll <= 2) {
-			beyondTheDoor.add(new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Left"));
-			beyondTheDoor.add(new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Right"));
+			Passage p = new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Left");
+			Passage q = new Passage(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Right");	
+			
+			beyondTheDoor.add(p);
+			beyondTheDoor.add(q);
 		}
 		
 		else if (roll >= 9 && roll <= 18) {
-			beyondTheDoor.add(new Chamber(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Forward"));
+			Chamber c = new Chamber(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Forward");
+			
+			beyondTheDoor.add(c);
 		}
 		
 		else if(roll == 19) {
-			beyondTheDoor.add(new Stairs(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Forward"));
+			Stairs s = new Stairs(dbag.roll(1, 20)-1,dbag.roll(1, 20)-1,"Forward");
+			
+			beyondTheDoor.add(s);
 		}
 		
 		else {
