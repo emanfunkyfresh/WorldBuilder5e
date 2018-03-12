@@ -12,7 +12,6 @@ public class Dungeon {
 
 	public Dungeon() {
 		int x = dbag.roll(1, 10) - 1;
-		System.out.println(x);
 		constructStartingArea(x);
 		determinePurpose();
 	}

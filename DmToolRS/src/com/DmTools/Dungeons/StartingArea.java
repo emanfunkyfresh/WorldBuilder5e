@@ -19,7 +19,6 @@ public class StartingArea {
 		this.desc = des;
 		String[] pos = { "Up", "Down", "Left", "Right" };
 
-		System.out.println(dir);
 		
 		for (int i = 0; i < 4; i++) {
 			if (dir.charAt(i) == 'd') {
@@ -38,15 +37,15 @@ public class StartingArea {
 	public String toString() {
 
 		String line = null;
-		for (int i = 0; i < passages.toArray().length; i++) {
-			
-			System.out.println(passages.toArray()[i].toString());
-			
-			if (null != (passages.toArray()[i].toString())) {
-				line += "\n\t\t" + passages.toArray()[i].toString();
-			}
-		}
-		return structure + "(" + desc + ")\n\t\t" + line;
+		
+		for(int i=0; i < passages.size();i++)
+			line+=passages.get(i).toString()+"\n\t\t\t";
+		
+		for(int i=0; i < doors.size();i++)
+			line+=doors.get(i).toString()+"\n\t\t\t";
+		
+		
+		return structure + "-"+desc+"(Passages: "+ passages.size()+" Doors:"+ doors.size()+")"+line;
 	}
 
 	

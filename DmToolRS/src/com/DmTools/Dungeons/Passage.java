@@ -6,6 +6,7 @@ import java.util.List;
 import com.DmTools.Instruments.DiceBag;
 
 public class Passage {
+	private String class_name = "PASSAGE";
 	private String direction;
 	protected String distForward;
 	protected String width;
@@ -99,9 +100,9 @@ public class Passage {
 			distForward = "20ft";
 			passages.add(new Passage(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Right"));
 			break;
-		case 20:
+		/*case 20:
 			passages.add(new Stairs(dbag.roll(1, 20)-1, dbag.roll(1, 20)-1, "Forward"));
-			break;
+			break;*/
 
 		}
 		
@@ -112,4 +113,61 @@ public class Passage {
 		return "Passage "+ direction+": "+distForward+" width";
 		
 	}
+	
+	public String getClass_name() {
+		return class_name;
+	}
+
+	public void setClass_name(String class_name) {
+		this.class_name = class_name;
+	}
+
+	public String getDirection() {
+		return direction;
+	}
+
+	public void setDirection(String direction) {
+		this.direction = direction;
+	}
+
+	public String getDistForward() {
+		return distForward;
+	}
+
+	public void setDistForward(String distForward) {
+		this.distForward = distForward;
+	}
+
+	public String getWidth() {
+		return width;
+	}
+
+	public void setWidth(String width) {
+		this.width = width;
+	}
+
+	public ArrayList<Passage> getPassages() {
+		return passages;
+	}
+
+	public void setPassages(ArrayList<Passage> passages) {
+		this.passages = passages;
+	}
+
+	public ArrayList<Door> getDoors() {
+		return doors;
+	}
+
+	public void setDoors(ArrayList<Door> doors) {
+		this.doors = doors;
+	}
+
+	public DiceBag getDbag() {
+		return dbag;
+	}
+
+	public void setDbag(DiceBag dbag) {
+		this.dbag = dbag;
+	}
+
 }

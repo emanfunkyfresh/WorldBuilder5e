@@ -61,4 +61,8 @@ public class Door {
 
 	}
 	
+	
+	public String toSTring() {
+		return doorType;
+	}
 }

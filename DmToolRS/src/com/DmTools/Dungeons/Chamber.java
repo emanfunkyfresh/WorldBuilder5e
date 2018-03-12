@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Chamber extends Passage {
 
+	private String class_name = "CHAMBER";
 	private int numExits;
 	private String direction;
 	private ArrayList<Passage> passages = new ArrayList<>();
@@ -67,4 +68,45 @@ public class Chamber extends Passage {
 	public String toString() {
 		return width;
 	}
+
+	public String getClass_name() {
+		return class_name;
+	}
+
+	public void setClass_name(String class_name) {
+		this.class_name = class_name;
+	}
+
+	public int getNumExits() {
+		return numExits;
+	}
+
+	public void setNumExits(int numExits) {
+		this.numExits = numExits;
+	}
+
+	public String getDirection() {
+		return direction;
+	}
+
+	public void setDirection(String direction) {
+		this.direction = direction;
+	}
+
+	public ArrayList<Passage> getPassages() {
+		return passages;
+	}
+
+	public void setPassages(ArrayList<Passage> passages) {
+		this.passages = passages;
+	}
+
+	public ArrayList<Door> getDoors() {
+		return doors;
+	}
+
+	public void setDoors(ArrayList<Door> doors) {
+		this.doors = doors;
+	}
+	
 }
