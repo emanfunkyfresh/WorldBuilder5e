@@ -1,0 +1,348 @@
+[
+  {
+    "count": 1,
+    "title": "Barbarian",
+    "contents": [
+      "rule |",
+      "subtitle | Class",
+      "rule |",
+      "fill | 1",
+      "property | Hit Points | d12",
+      "property | Armor | Light and medium armor, shields",
+      "property | Weapons | Simple weapons, martial weapons",
+      "property | Saving Throws | Str, Con",
+      "property | Skills | Choose 2: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival",
+      "text | <b>Equipment</b>",
+      "bullet | a) a greataxe or b) any martial melee weapon",
+      "bullet | a) two handaxes or b) any simple melee weapon",
+      "bullet | An explorers pack and 4 javelins",
+      "fill | 2"
+    ],
+    "tags": [
+      "class",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Rage",
+    "contents": [
+      "rule |",
+      "subtitle | Barbarian Feature",
+      "rule |",
+      "fill | 1",
+      "text | You begin raging as a bonus action, while raging you gain the following benefits",
+      "bullet | You have adv on Str checks and Str saving thows",
+      "bullet | When using a Str melee weapon you gain a damage bonus",
+      "bullet | You have resistance to bludgeoning, piercing and slashing dmg",
+      "text | You cannot cast spells while raging. Raging last for 1 minute (must attack hostile or take dmg to continue rage)",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Rage Table",
+    "contents": [
+      "rule |",
+      "subtitle | Barbarian Feature",
+      "rule |",
+      "text | <table align=left border><tr height=3px><th>Lvl</th><th>Dmg</th><th># of Rages</th></tr><tr height=3px><td align=center>1</td><td align=center>+2</td><td align=center>2</td></tr><tr height=3px><td align=center>2</td><td align=center>+2</td><td align=center>2</td></tr><tr height=3px><td align=center>3</td><td align=center>+2</td><td align=center>3</td></tr><tr height=3px><td align=center>4</td><td align=center>+2</td><td align=center>3</td></tr><tr height=3px><td align=center>5</td><td align=center>+2</td><td align=center>3</td></tr><tr height=3px><td align=center>6</td><td align=center>+2</td><td align=center>4</td></tr><tr height=3px><td align=center>7</td><td align=center>+2</td><td align=center>4</td></tr><tr height=3px><td align=center>8</td><td align=center>+2</td><td align=center>4</td></tr><tr height=3px><td align=center>9</td><td align=center>+3</td><td align=center>4</td></tr><tr height=3px><td align=center>10</td><td align=center>+3</td><td align=center>4</td></tr></table><table align=right border><tr height=3px><th>Lvl</th><th>Dmg</th><th># of Rages</th></tr><tr height=3px><td align=center>11</td><td align=center>+3</td><td align=center>4</td></tr><tr height=3px><td align=center>12</td><td align=center>+3</td><td align=center>5</td></tr><tr height=3px><td align=center>13</td><td align=center>+3</td><td align=center>5</td></tr><tr height=3px><td align=center>14</td><td align=center>+3</td><td align=center>5</td></tr><tr height=3px><td align=center>15</td><td align=center>+3</td><td align=center>5</td></tr><tr height=3px><td align=center>16</td><td align=center>+4</td><td align=center>5</td></tr><tr height=3px><td align=center>17</td><td align=center>+4</td><td align=center>6</td></tr><tr height=3px><td align=center>18</td><td align=center>+4</td><td align=center>6</td></tr><tr height=3px><td align=center>19</td><td align=center>+4</td><td align=center>6</td></tr><tr height=3px><td align=center>20</td><td align=center>+4</td><td align=center>unlimited</td></tr></table>"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Unarmored Defence",
+    "contents": [
+      "rule |",
+      "subtitle | Barbarian Feature",
+      "rule |",
+      "fill | 1",
+      "text | While not wearing armor your <b>AC = 10 + Dex + Con</b>, you can use a shield and still gain this benefit.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Reckless Attack",
+    "contents": [
+      "rule |",
+      "subtitle | Barbarian Feature",
+      "rule |",
+      "fill | 1",
+      "text | Starting at <b>2nd level</b> when you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on <b>melee</b> weapon attack rolls using <b>Str</b> during this turn, but attack rolls against you have <b>advantage</b> until your next turn.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Danger Sense",
+    "contents": [
+      "rule |",
+      "subtitle | Barbarian Feature",
+      "rule |",
+      "fill | 1",
+      "text | At <b>2nd level</b> you have advantage on <b>Dex</b> saving throws against affects you can see such as traps and spells. This does not work if you are <b>blind</b>, <b>deafened</b>, or <b>incapacitated</b>.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Extra Attack",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>5th level</b>, you can attack twice, instead of once, whenever you take the <b>Attack action</b> on your turn.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Fast Movement",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>5th level</b>, your speed increases by 10' when you aren't wearing any armor.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Feral Instinct",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>7th level</b>, you have advantage on <b>initiative</b> rolls. ",
+      "text | Additionally, if you are <b>surprised</b> at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your <b>rage</b> before doing anything else on that turn.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Brutal Critical",
+    "contents": [
+      "rule |",
+      "subtitle | Fighter feature",
+      "rule |",
+      "fill | 1",
+      "text | Beginning at <b>9th level</b> roll one additional die when you do critical <b>Dmg</b>",
+      "fill | 1",
+      "section | Two Add'l Dice",
+      "text | Starting at <b>13th level</b>, roll two additional dice.",
+      "fill | 1",
+      "section | Three Add'l Dice",
+      "text | Starting at <b>20th level</b>, roll 3 additional dice."
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Relentless Rage",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>11th level</b>, if you drop to 0 hp and don't die outright while raging, make a <b>DC 10 Con</b> saving throw. If you succeed you drop to 1 HP instead.",
+      "text | Each time you use this feature after the first the <b>DC increases by 5</b> until you take a <b>short or long rest</b>.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Persistant Rage",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>15th level</b> your <b>rage</b> only ends if you fall <b>unconscious</b> or choose to end it early.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Indomitable Might",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>18th level</b> if your total <b>Str</b> check is less than your <b>Str</b> score you can use the score in place of the total.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Primal Champion",
+    "contents": [
+      "rule",
+      "subtitle | Barbarian feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>20th level</b> your <b>Str</b> and <b>Con</b> increase by <b>4</b> to a max of 24.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "core",
+      "barbarian"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Frenzey",
+    "contents": [
+      "rule",
+      "subtitle | Berserker feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>3rd level</b> you can make a single <b>melee</b> attack as a <b>bonus action</b> each turn. When your rage ends you suffer one level of <b>exhaustion</b>",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "path",
+      "barbarian",
+      "berserker"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Mindless Rage",
+    "contents": [
+      "rule",
+      "subtitle | Berserker feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>6th level</b> you cannot be <b>charmed</b> or <b>frightened</b> while raging.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "path",
+      "barbarian",
+      "berserker"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Intimidating Presense",
+    "contents": [
+      "rule",
+      "subtitle | Berserker feature",
+      "rule",
+      "fill | 1",
+      "text | Beginning at <b>10th level</b> you can use your <b>action</b> to frighten someone within 30' of you. <b>DC = 8 + Prof. + Cha</b>. This last until the <i>end of your next turn</i>. This effect ends if the creature moves out of sight or is 60' away.",
+      "text | If the creature succeeds it saving throw you cannot use this feature again on that creature for 24 hours.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "path",
+      "barbarian",
+      "berserker"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Retaliation",
+    "contents": [
+      "rule",
+      "subtitle | Berserker feature",
+      "rule",
+      "fill | 1",
+      "text | Starting at <b>14th level</b> if you take damage from a creature that is within 5' of you, you can use your <b>reaction</b> to make a <b>melee</b> attack against that creature.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "path",
+      "barbarian",
+      "berserker"
+    ],
+    "color": ""
+  }
+]

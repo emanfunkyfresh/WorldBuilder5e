@@ -1,0 +1,91 @@
+[
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Adult Red Dragon",
+    "icon": "dragon-head",
+    "icon_back": "",
+    "contents": [
+      "subtitle | Huge dragon, CE",
+      "rule",
+      "property | Armor Class | 19 (natural armor)",
+      "property | Hit Points | 256 (19d12+133)",
+      "property | Speed | 40 ft., climb 40ft., fly 80 ft.",
+      "rule",
+      "dndstats | 27 | 10 | 25 | 16 | 13 | 21",
+      "rule",
+      "property | Saving Throws | Dex +6, Con +13, Wis +7, Cha +11",
+      "property | Skills | perception +13, Stealth +6",
+      "property | Damage Immunties | Fire",
+      "property | Senses | Blingsight 60ft., Darkvision 120 ft., PassPer 23",
+      "property | Languages | Common, Draconic",
+      "property | Challenge | 17 (18,000 XP)",
+      "rule",
+      "text | <b><i>Legendary Resistence(3/Day)</i></b> If the dragon fails a saving throw, it can choose to succeed instead.",
+      "section | <b>Actions</b>",
+      "text | <b><i>Multiattack</i></b> The dragon can use its Frightful Presense. It then makes three attacks: One bite and two claw",
+      "text | <b><i>Bite</i></b> <i>Attack:</i> +14 to hit, 10 ft., one target. <i>Hit:</i> 19 (2d10+8) PD, + 7 (2d6) Fire",
+      "text | <b><i>Claw</i></b> <i>Attack:</i> +14 to hit, 5 ft., one target. <i>Hit:</i> 15 (2d6+8) SD",
+      "text | <b><i>Tail</i></b> <i>Attack:</i> +14 to hit, 15 ft., one target. <i>Hit:</i> 17 (2d8+8) BD",
+      "text | <b><i>Fire Breath (Recharge 5-6)</i></b> 60 ft cone, 63 (18d6) fire damage, DC 21 DEX for 1/2"
+    ],
+    "title_size": ""
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Adult Red Dragon - Back",
+    "icon": "dragon-head",
+    "icon_back": "",
+    "contents": [
+      "section | <b>Actions - Continued</b>",
+      "text | <b><i>Frightful Presense</i></b> Each creature of dragon's choice within 120 ft and aware of it, must make a DC 19 WIS save or be frightened for 1 minute. Can repeat ST at the end of turn, ending effect on success. Successful save makes creature immune for 24 hours. ",
+      "section | <b>Legendary Actions</b>",
+      "text | Dragon can take 3 legendary actions, choosing from below. Only one legendary action can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+      "text | <b><i>Detect</i></b> The dragon makes a WIS (Perception) check.",
+      "text | <b><i>Tail Attack</i></b> The dragon makes a tail attack.",
+      "text | <b><i>Wing Attack (Costs 2 Actions)</i></b> The dragon beats its wings. Each creature with 10 ft. of the dragon must succeed on a DC 22 DEX saving throw or take 15 (2d6+8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+      "section | <b>About</b>",
+      "text | The odor of sulfur and pumice surrounds a red dragon, whose swept-back horns and spinal frill defie its silhouette. Its beaked snout vents smoke at all times, and its eyes dance with flame when it is angry."
+    ],
+    "title_size": ""
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "A Red Dragon's Lair",
+    "icon": "dragon-head",
+    "icon_back": "",
+    "contents": [
+      "section | <b>Lair Actions</b>",
+      "text | On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row:",
+      "text | <b><i>Magma Eruption</i></b> Any point within 120 ft., 20 ft.-high, 5 ft.-radius geyser, 21 (6d6) fire damage, DC 15 DEX for 1/2",
+      "text | <b><i>Earth Tremor</i></b> 60 ft. radius centered on dragon, DC 15 Dex or knocked prone.",
+      "text | <b><i>Volcanic Gas</i></b> 20 ft. radius sphere within 120 ft., Spreads around corners and area is lightly obscured, lasts until next round, DC 13 CON or be poisoned until the end of its turn. While poisoned, creature is incapacitated.",
+      "section | <b>Regional Effects</b>",
+      "text | The region containing a red dragon's lair is warped by the dragon's magic, which creates one or more of the following",
+      "text | <b><i>Earthquakes</i></b> Small earthquakes are common within 6 miles of the lair",
+      "text | <b><i>Corrupt Water</i></b> Water sources within 1 mile of the lair are supernaturally warm and tainted by sulfur",
+      "text | <b><i>Elemental Portals</i></b> Rocky fissures within 1 mile of the lair form portals to the Elemental Plane of Fire, allowing creatures of elemental fire into the world",
+      "section | <b>Death of Red Dragon</b>",
+      "text | <b><i>Dragon Death</i></b> These effects fade over the source of 1d10 days, in the event of the dragons demise"
+    ],
+    "title_size": ""
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "A Red Dragon's Lair - Back",
+    "icon": "dragon-head",
+    "icon_back": "",
+    "contents": [
+      "section | <b>About</b>",
+      "text | Red dragons lair in high mountains or hills, dwelling in caverns under snow-capped peaks, or within the deep halls of abandoned mines and dwarven strongholds. ",
+      "text | Caves with volcanic or geothermal activity are the most highly prized red dragon lairs, creating hazards that hinder intruders and letting searing heat and volcanic gases wash over a dragon as it sleeps. ",
+      "text | With its hoard well protected deep within the lair, a red dragon spends as much of its time outside the mountain as in it. ",
+      "text | For a red dragon, the great heights of the world are the throne from which it can look out to survey all it controls—and the wider world it seeks to control. ",
+      "text | Throughout the lair complex, servants erect monuments to the dragon’s power, telling the grim story of its life, the enemies it has slain, and the nations it has conquered."
+    ],
+    "title_size": ""
+  }
+]

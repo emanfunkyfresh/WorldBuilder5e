@@ -1,0 +1,394 @@
+[
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Levels & Proficiency 1-12",
+    "icon": "book-cover",
+    "icon_back": "",
+    "contents": [
+      "subtitle | Levels & experience",
+      "rule",
+      "section | Proficiency +2",
+      "property | Level 1 | EXP 0-299 ",
+      "property | Level 2 | EXP 300-899",
+      "property | Level 3 | EXP 900-2,699",
+      "property | Level 4 | EXP 2,700-6,499",
+      "section | Proficiency +3",
+      "property | Level 5 | EXP 6,500-13,999",
+      "property | Level 6 | EXP 14,000-22,999",
+      "property | Level 7 | EXP 23,000-33,999",
+      "property | Level 8 | EXP 34,000-47,999",
+      "section | Proficiency +4",
+      "property | Level 9 | EXP 48,000-63,999",
+      "property | Level 10 | EXP 64,000-84,999",
+      "property | Level 11 | EXP 85,000-99,999",
+      "property | Level 12 | EXP 100,000-119,999"
+    ],
+    "tags": [
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Levels & Proficiency 13+",
+    "icon": "book-cover",
+    "icon_back": "",
+    "contents": [
+      "subtitle | Levels & experience",
+      "rule",
+      "section | Proficiency +5",
+      "property | Level 13 | EXP 120,000-139,999",
+      "property | Level 14 | EXP 140,000-164,999",
+      "property | Level 15 | EXP 165,000-194,999",
+      "property | Level 16 | EXP 195,000-224,999",
+      "section | Proficiency +6",
+      "property | Level 17 | EXP 225,000-264,999",
+      "property | Level 18 | EXP 265,000-304,999",
+      "property | Level 19 | EXP 305,000-344,999",
+      "property | Level 20 | EXP 355,000"
+    ],
+    "tags": [
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Dwarf",
+    "icon": "book-cover",
+    "contents": [
+      "property | Ability Score | +2 Con",
+      "property | Age | 350 years",
+      "property | Alignment | Lawful",
+      "property | Size | 4-5' 150 lbs, Medium",
+      "property | Speed | 25'",
+      "property | Dark Vision | 60'",
+      "property | Dwarven Resistance | Adv on saving throws vs poison, and resistance to poison dmg.",
+      "property | Dwarven Combat Training | Proficiency with battleaxe, handaxe, light hammer, and\t warhammer.",
+      "property | Tools | One of the following: smith’s tools, brewer’s supplies, or mason’s tools.",
+      "property | Stone Cutting | Double proficiency to origin of stonework",
+      "property | Languages | Dwarvish, Common",
+      "property | Subraces | Hill Dwarf"
+    ],
+    "tags": [
+      "race",
+      "dwarf",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Hill Dwarf",
+    "icon": "book-cover",
+    "contents": [
+      "subtitle | Subrace of Dwarf",
+      "rule |",
+      "fill | 1",
+      "property | Ability Score | +1 Wis",
+      "property | Dwarven Toughness | Hit point maximum increases by 1 and increases by 1 every level",
+      "fill | 3"
+    ],
+    "tags": [
+      "subrace",
+      "dwarf",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Elf",
+    "icon": "book-cover",
+    "contents": [
+      "property | Ability Score | +2 Dex",
+      "property | Age | 750 years",
+      "property | Alignment | Chaotic",
+      "property | Size | < 5' to > 6' Medium",
+      "property | Speed | 30'",
+      "property | Darkvision | 60'",
+      "property | Keen Senses | Proficiency with Perception skill",
+      "property | Fey Ancestry | Adv on saving throws vs being charmed and magic cannot put you to sleep",
+      "property | Trance | Sleep isn't needed, only 4 hrs of meditation",
+      "property | Languages | Elvish, Common",
+      "property | Subraces | High Elf"
+    ],
+    "tags": [
+      "race",
+      "elf",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "High Elf",
+    "icon": "book-cover",
+    "contents": [
+      "subtitle | Subrace of Elf",
+      "rule |",
+      "fill | 1",
+      "property | Ability Score | +1 Int",
+      "property | Elf Weapon Training | Proficiency with longsword, shortsword, longbow, shortbow",
+      "property | Cantrip | You know one cantrip of your choice from the wizards spell list. <i>Intelegence</i> is spellcasting modifier for it.",
+      "property | Extra language | Speak, read, and write one language of your choice",
+      "fill | 3"
+    ],
+    "tags": [
+      "subrace",
+      "elf",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Halfling",
+    "icon": "book-cover",
+    "contents": [
+      "property | Ability Score | +2 Dex",
+      "property | Age | 250 years",
+      "property | Alignment | Lawful Good",
+      "property | Size | 3' 40 lbs Small",
+      "property | Speed | 25'",
+      "property | Lucky | When you roll a 1, you can re-roll and must use new result",
+      "property | Brave | Adv on saving throws vs being frightened",
+      "property | Halfling Nimbleness | You can move through the space of any creature that is of a size larger than yours.",
+      "property | Languages | Halfling, Common",
+      "property | Subraces | Lightfoot Halfling"
+    ],
+    "tags": [
+      "race",
+      "halfling",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Lightfoot Halfling",
+    "icon": "book-cover",
+    "contents": [
+      "subtitle | Subrace of Halfling",
+      "rule |",
+      "fill | 1",
+      "property | Ability Score | +1 Cha",
+      "property | Naturally Stealthy | You can attempt to hide even when you are only obscured by a creature that is at least one size larger than you.",
+      "fill | 3"
+    ],
+    "tags": [
+      "subrace",
+      "halfling",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Dragonborn",
+    "icon": "book-cover",
+    "contents": [
+      "property | Ability Score | +2 Str +1 Cha",
+      "property | Age | 80 years",
+      "property | Alignment | Good",
+      "property | Size | >6' 250 lbs Small",
+      "property | Speed | 30'",
+      "property | Draconic Ancestry | Choose dragon type: black, blue, brass, bronze, copper, gold, green, red, silver, white",
+      "property | Breath Weapon | Determined by draconic ancestry, save DC = 8 + Con + Prof. Creature takes 2d6 on fail, half on success, dmg increases by 1d6 at levels 6, 11th, and 16th",
+      "property | Damage Resistance | Resistance to damage type associated with your draconic ancestry",
+      "property | Languages | Draconic, Common"
+    ],
+    "tags": [
+      "race",
+      "dragonborn",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Human",
+    "icon": "book-cover",
+    "contents": [
+      "fill | 1",
+      "property | Ability Score | +1 Each Ability Score",
+      "property | Age | < 100 years",
+      "property | Alignment | Any",
+      "property | Size | 5' - 6'+ Medium",
+      "property | Speed | 30'",
+      "property | Languages | Common and 1 extra language",
+      "fill | 3"
+    ],
+    "tags": [
+      "race",
+      "human",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Dragonborn Ancestry",
+    "icon": "book-cover",
+    "contents": [
+      "rule |",
+      "subtitle | Damage type, area & saving throw",
+      "rule |",
+      "fill | 1",
+      "property | Black | Acid: 5 by 30' line: <i>Dex</i>",
+      "property | Blue | Lightning: 5 by 30' line: <i>Dex</i>",
+      "property | Brass | Fire: 5 by 30' line: <i>Dex</i>",
+      "property | Bronze | Lightning: 5 by 30' line: <i>Dex</i>",
+      "property | Copper | Acid: 5 by 30' line: <i>Dex</i>",
+      "property | Gold | Fire: 15' cone: <i>Dex</i>",
+      "property | Green | Poison: 15' cone: <i>Con</i>",
+      "property | Red | Fire: 15' cone: <i>Dex</i>",
+      "property | Silver | Cold: 15' cone: <i>Con</i>",
+      "property | White | Cold: 15' cone: <i>Con</i>",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "dragonborn",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Gnome",
+    "icon": "book-cover",
+    "contents": [
+      "fill | 1",
+      "property | Ability Score | +2 Int",
+      "property | Age | 500 years",
+      "property | Alignment | Good",
+      "property | Size | 3' - 4' 40 lbs, Small",
+      "property | Speed | 25'",
+      "property | Darkvision | 60'",
+      "property | Gnome Cunning | Adv on all Int, Wis, Cha saving throws against magic",
+      "property | Languages | Gnomish, Common",
+      "property | Subclasses | Rock Gnome",
+      "fill | 3"
+    ],
+    "tags": [
+      "race",
+      "gnome",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Rock Gnome",
+    "icon": "book-cover",
+    "contents": [
+      "subtitle | Subrace of Gnome",
+      "rule |",
+      "fill | 1",
+      "property | Ability Score | +1 Con",
+      "property | Artificers Lore | Double proficiency on History check related to magical items, alchemical objects or technical devices ",
+      "property | Tinker | Proficiency with Tinker's tools. You can spend 10 GP and 1 hr to create a clockwork toy (AC 5 HP 1). The device ceases to function after 24 hours unless you spend 1 hr making repairs or spend an action to dismantle it, reclaiming the resources. You can have 3 such devices at a time.",
+      "fill | 3"
+    ],
+    "tags": [
+      "subrace",
+      "gnome",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Tinker Toys",
+    "icon": "book-cover",
+    "contents": [
+      "rule |",
+      "subtitle | Things a Tinker can make",
+      "rule |",
+      "property | Clockwork Toy | This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.",
+      "property | Fire Starter | The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.",
+      "property | Music Box | The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.",
+      "fill | 2"
+    ],
+    "tags": [
+      "feature",
+      "tinker",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Half-Elf",
+    "icon": "book-cover",
+    "contents": [
+      "fill | 1",
+      "property | Ability Score | +2 Cha & any other 2 +1",
+      "property | Age | 180+ years",
+      "property | Alignment | Chaotic",
+      "property | Size | 5' - 6' Medium",
+      "property | Speed | 30'",
+      "property | Darkvision | 60'",
+      "property | Fey Ancestry | Adv on saving throws vs being charmed and magic cannot put you to sleep",
+      "property | Skill Diversity | Gain proficiency in any two skills",
+      "property | Languages | Elvish, Common, 1 other",
+      "fill | 3"
+    ],
+    "tags": [
+      "race",
+      "half-elf",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Half-Orc",
+    "icon": "book-cover",
+    "contents": [
+      "fill | 1",
+      "property | Ability Score | +2 Str +1 Con",
+      "property | Age | 75 years",
+      "property | Alignment | Chaotic",
+      "property | Size | 5' - 6'+ Medium",
+      "property | Speed | 30'",
+      "property | Darkvision | 60'",
+      "property | Menacing | Proficiency in the Intimidation skill",
+      "property | Relentless Endurance | When you drop to 0 hp but are not outright killed, you can drop to 1 hp. You cannot use this feature again until you do a <b>long rest</b>",
+      "property | Savage Attacks | When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.",
+      "property | Languages | Orc, Common",
+      "fill | 3"
+    ],
+    "tags": [
+      "race",
+      "half-orc",
+      "core"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Tiefling",
+    "icon": "book-cover",
+    "contents": [
+      "fill | 1",
+      "property | Ability Score | +1 Int +2 Cha",
+      "property | Age | 75+ years",
+      "property | Alignment | Chaotic Evil",
+      "property | Size | 5' - 6'+ Medium",
+      "property | Speed | 30'",
+      "property | Darkvision | 60'",
+      "property | Hellish Resistance | Resistance to Fire damage",
+      "property | Infernal Legacy | You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a <b>long rest</b>. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a <b>long rest</b>. <i>Charisma</i> is your spellcasting ability for these spells.",
+      "property | Languages | Infernal, Common",
+      "fill | 3"
+    ],
+    "tags": [
+      "race",
+      "tiefling",
+      "core"
+    ]
+  }
+]
