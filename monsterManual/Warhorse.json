@@ -1,0 +1,41 @@
+{
+  "hit_points": 19,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "passive Perception 11",
+  "challenge_rating": "1/2",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "60 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 11,
+  "Uuid": 297,
+  "size": "Large",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "3d10",
+  "name": "Warhorse",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Trampling Charge",
+    "desc": "If the horse moves at least 20 ft. straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action."
+  }],
+  "attributes": {
+    "dexterity": 12,
+    "constitution": 13,
+    "strength": 18,
+    "charisma": 7,
+    "intelligence": 2,
+    "wisdom": 12
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 6,
+    "damage_dice": "2d6",
+    "name": "Hooves",
+    "damage_bonus": 4,
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+  }]
+}

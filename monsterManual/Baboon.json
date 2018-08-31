@@ -1,0 +1,41 @@
+{
+  "hit_points": 3,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "passive Perception 11",
+  "challenge_rating": "0",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "30 ft., climb 30 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 12,
+  "Uuid": 35,
+  "size": "Small",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "1d6",
+  "name": "Baboon",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Pack Tactics",
+    "desc": "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+  }],
+  "attributes": {
+    "dexterity": 14,
+    "constitution": 11,
+    "strength": 8,
+    "charisma": 6,
+    "intelligence": 4,
+    "wisdom": 12
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 1,
+    "damage_dice": "1d4",
+    "name": "Bite",
+    "damage_bonus": -1,
+    "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 â\u20ac\u201d 1) piercing damage."
+  }]
+}

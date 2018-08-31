@@ -1,0 +1,62 @@
+{
+  "hit_points": 68,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "challenge_rating": "3",
+  "damage_immunities": "",
+  "type": "monstrosity",
+  "speed": "30 ft., fly 50 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 14,
+  "Uuid": 195,
+  "size": "Large",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "8d10",
+  "name": "Manticore",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Tail Spike Regrowth",
+    "desc": "The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest."
+  }],
+  "attributes": {
+    "dexterity": 16,
+    "constitution": 17,
+    "strength": 17,
+    "charisma": 8,
+    "intelligence": 7,
+    "wisdom": 12
+  },
+  "alignment": "lawful evil",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes."
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d8",
+      "name": "Bite",
+      "damage_bonus": 3,
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d6",
+      "name": "Claw",
+      "damage_bonus": 3,
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d8",
+      "name": "Tail Spike",
+      "damage_bonus": 3,
+      "desc": "Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    }
+  ]
+}

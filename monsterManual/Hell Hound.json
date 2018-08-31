@@ -1,0 +1,56 @@
+{
+  "hit_points": 45,
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 15",
+  "challenge_rating": "3",
+  "type": "fiend",
+  "speed": "50 ft.",
+  "damage_resistances": "",
+  "skills": {"perception": 5},
+  "armor_class": 15,
+  "subtype": "",
+  "hit_dice": "7d8",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "name": "Keen Hearing and Smell",
+      "desc": "The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Pack Tactics",
+      "desc": "The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "languages": "understands Infernal but can't speak it",
+  "damage_immunities": "fire",
+  "damage_vulnerabilities": "",
+  "Uuid": 165,
+  "size": "Medium",
+  "saving_throws": {},
+  "name": "Hell Hound",
+  "attributes": {
+    "dexterity": 12,
+    "constitution": 14,
+    "strength": 17,
+    "charisma": 6,
+    "intelligence": 6,
+    "wisdom": 13
+  },
+  "alignment": "lawful evil",
+  "actions": [
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d8",
+      "name": "Bite",
+      "damage_bonus": 3,
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage."
+    },
+    {
+      "attack_bonus": 0,
+      "damage_dice": "6d6",
+      "name": "Fire Breath (Recharge 5-6)",
+      "desc": "The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ]
+}

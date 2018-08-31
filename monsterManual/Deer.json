@@ -1,0 +1,35 @@
+{
+  "hit_points": 4,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "passive Perception 12",
+  "challenge_rating": "0",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "50 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 13,
+  "Uuid": 82,
+  "size": "Medium",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "1d8",
+  "name": "Deer",
+  "attributes": {
+    "dexterity": 16,
+    "constitution": 11,
+    "strength": 11,
+    "charisma": 5,
+    "intelligence": 2,
+    "wisdom": 14
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 2,
+    "damage_dice": "1d4",
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
+  }]
+}

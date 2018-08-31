@@ -1,0 +1,83 @@
+{
+  "hit_points": 110,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 18",
+  "challenge_rating": "5",
+  "type": "fiend",
+  "speed": "30 ft.",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
+  "skills": {
+    "insight": 5,
+    "deception": 5,
+    "perception": 8
+  },
+  "armor_class": 15,
+  "subtype": "devil",
+  "hit_dice": "13d8",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "damage_dice": "1d10",
+      "name": "Barbed Hide",
+      "desc": "At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the devil's darkvision."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Magic Resistance",
+      "desc": "The devil has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "languages": "Infernal, telepathy 120 ft.",
+  "damage_immunities": "fire, poison",
+  "damage_vulnerabilities": "",
+  "Uuid": 40,
+  "size": "Medium",
+  "saving_throws": {
+    "charisma_save": 5,
+    "strength_save": 6,
+    "constitution_save": 7,
+    "wisdom_save": 5
+  },
+  "name": "Barbed Devil",
+  "attributes": {
+    "dexterity": 17,
+    "constitution": 18,
+    "strength": 16,
+    "charisma": 14,
+    "intelligence": 12,
+    "wisdom": 14
+  },
+  "alignment": "lawful evil",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice."
+    },
+    {
+      "attack_bonus": 6,
+      "damage_dice": "1d6",
+      "name": "Claw",
+      "damage_bonus": 3,
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft ., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "attack_bonus": 6,
+      "damage_dice": "2d6",
+      "name": "Tail",
+      "damage_bonus": 3,
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "3d6",
+      "name": "Hurl Flame",
+      "desc": "Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
+    }
+  ]
+}

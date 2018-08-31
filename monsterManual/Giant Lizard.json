@@ -1,0 +1,48 @@
+{
+  "hit_points": 19,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "darkvision 30 ft., passive Perception 10",
+  "challenge_rating": "1/4",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "30 ft., climb 30 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 12,
+  "Uuid": 130,
+  "size": "Large",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "3d10",
+  "name": "Giant Lizard",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "name": "Variant: Hold Breath",
+      "desc": "The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)"
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Variant: Spider Climb",
+      "desc": "The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    }
+  ],
+  "attributes": {
+    "dexterity": 12,
+    "constitution": 13,
+    "strength": 15,
+    "charisma": 5,
+    "intelligence": 2,
+    "wisdom": 10
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 4,
+    "damage_dice": "1d8",
+    "name": "Bite",
+    "damage_bonus": 2,
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+  }]
+}

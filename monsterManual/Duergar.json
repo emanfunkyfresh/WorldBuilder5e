@@ -1,0 +1,67 @@
+{
+  "hit_points": 26,
+  "condition_immunities": "",
+  "languages": "Dwarvish, Undercommon",
+  "senses": "darkvision 120 ft., passive Perception 10",
+  "challenge_rating": "1",
+  "damage_immunities": "",
+  "type": "humanoid",
+  "speed": "25 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison",
+  "skills": {},
+  "armor_class": 16,
+  "Uuid": 94,
+  "size": "Medium",
+  "subtype": "dwarf",
+  "saving_throws": {},
+  "hit_dice": "4d8",
+  "name": "Duergar",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "name": "Duergar Resilience",
+      "desc": "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "attributes": {
+    "dexterity": 11,
+    "constitution": 14,
+    "strength": 14,
+    "charisma": 9,
+    "intelligence": 11,
+    "wisdom": 10
+  },
+  "alignment": "lawful evil",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Enlarge (Recharges after a Short or Long Rest)",
+      "desc": "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+    },
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d8",
+      "name": "War Pick",
+      "damage_bonus": 2,
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
+    },
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "name": "Javelin",
+      "damage_bonus": 2,
+      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Invisibility (Recharges after a Short or Long Rest)",
+      "desc": "The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it ."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "hit_points": 85,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 8",
+  "challenge_rating": "2",
+  "type": "undead",
+  "speed": "30 ft.",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 8,
+  "subtype": "",
+  "hit_dice": "9d10",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Undead Fortitude",
+    "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+  }],
+  "languages": "understands Common and Giant but can't speak",
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": "",
+  "Uuid": 214,
+  "size": "Large",
+  "saving_throws": {"wisdom_save": 0},
+  "name": "Ogre Zombie",
+  "attributes": {
+    "dexterity": 6,
+    "constitution": 18,
+    "strength": 19,
+    "charisma": 5,
+    "intelligence": 3,
+    "wisdom": 6
+  },
+  "alignment": "neutral evil",
+  "actions": [{
+    "attack_bonus": 6,
+    "damage_dice": "2d8",
+    "name": "Morningstar",
+    "damage_bonus": 4,
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+  }]
+}

@@ -1,0 +1,64 @@
+{
+  "hit_points": 75,
+  "condition_immunities": "",
+  "senses": "passive Perception 15",
+  "challenge_rating": "3",
+  "type": "monstrosity",
+  "speed": "50 ft.",
+  "damage_resistances": "",
+  "skills": {
+    "stealth": 3,
+    "perception": 5
+  },
+  "armor_class": 13,
+  "subtype": "",
+  "hit_dice": "10d10",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "name": "Keen Hearing and Smell",
+      "desc": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Pack Tactics",
+      "desc": "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Snow Camouflage",
+      "desc": "The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+    }
+  ],
+  "languages": "Common, Giant, Winter Wolf",
+  "damage_immunities": "cold",
+  "damage_vulnerabilities": "",
+  "Uuid": 309,
+  "size": "Large",
+  "saving_throws": {},
+  "name": "Winter Wolf",
+  "attributes": {
+    "dexterity": 13,
+    "constitution": 14,
+    "strength": 18,
+    "charisma": 8,
+    "intelligence": 7,
+    "wisdom": 12
+  },
+  "alignment": "neutral evil",
+  "actions": [
+    {
+      "attack_bonus": 6,
+      "damage_dice": "2d6",
+      "name": "Bite",
+      "damage_bonus": 4,
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+    },
+    {
+      "attack_bonus": 0,
+      "damage_dice": "4d8",
+      "name": "Cold Breath (Recharge 5-6)",
+      "desc": "The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ]
+}

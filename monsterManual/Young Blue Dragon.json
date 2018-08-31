@@ -1,0 +1,64 @@
+{
+  "hit_points": 152,
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19",
+  "challenge_rating": "9",
+  "type": "dragon",
+  "speed": "40 ft., burrow 40 ft., fly 80 ft.",
+  "damage_resistances": "",
+  "skills": {
+    "stealth": 4,
+    "perception": 9
+  },
+  "armor_class": 18,
+  "subtype": "",
+  "hit_dice": "16d10",
+  "languages": "Common, Draconic",
+  "damage_immunities": "lightning",
+  "damage_vulnerabilities": "",
+  "Uuid": 316,
+  "size": "Large",
+  "saving_throws": {
+    "charisma_save": 7,
+    "constitution_save": 8,
+    "wisdom_save": 5,
+    "dexterity_save": 4
+  },
+  "name": "Young Blue Dragon",
+  "attributes": {
+    "dexterity": 10,
+    "constitution": 19,
+    "strength": 21,
+    "charisma": 17,
+    "intelligence": 14,
+    "wisdom": 13
+  },
+  "alignment": "lawful evil",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "attack_bonus": 9,
+      "damage_dice": "2d10 + 1d10",
+      "name": "Bite",
+      "damage_bonus": 5,
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) lightning damage."
+    },
+    {
+      "attack_bonus": 9,
+      "damage_dice": "2d6",
+      "name": "Claw",
+      "damage_bonus": 5,
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+    },
+    {
+      "attack_bonus": 0,
+      "damage_dice": "10d10",
+      "name": "Lightning Breath (Recharge 5-6)",
+      "desc": "The dragon exhales lightning in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one."
+    }
+  ]
+}
