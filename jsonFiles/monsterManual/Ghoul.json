@@ -1,0 +1,43 @@
+{
+  "hit_points": 22,
+  "condition_immunities": "poisoned",
+  "languages": "Common",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "challenge_rating": "1",
+  "damage_immunities": "",
+  "type": "undead",
+  "speed": "30 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 12,
+  "Uuid": 115,
+  "size": "Medium",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "5d8",
+  "name": "Ghoul",
+  "attributes": {
+    "dexterity": 15,
+    "constitution": 10,
+    "strength": 13,
+    "charisma": 6,
+    "intelligence": 7,
+    "wisdom": 10
+  },
+  "alignment": "chaotic evil",
+  "actions": [
+    {
+      "attack_bonus": 2,
+      "damage_dice": "2d6",
+      "name": "Bite",
+      "damage_bonus": 2,
+      "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ]
+}

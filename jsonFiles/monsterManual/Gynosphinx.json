@@ -1,0 +1,82 @@
+{
+  "hit_points": 136,
+  "condition_immunities": "charmed, frightened",
+  "senses": "truesight 120 ft., passive Perception 18",
+  "challenge_rating": "11",
+  "type": "monstrosity",
+  "legendary_actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Claw Attack",
+      "desc": "The sphinx makes one claw attack."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Teleport (Costs 2 Actions)",
+      "desc": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Cast a Spell (Costs 3 Actions)",
+      "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal."
+    }
+  ],
+  "speed": "40 ft., fly 60 ft.",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
+  "skills": {
+    "arcana": 12,
+    "history": 12,
+    "religion": 8,
+    "perception": 8
+  },
+  "armor_class": 17,
+  "subtype": "",
+  "hit_dice": "16d10",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "name": "Inscrutable",
+      "desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Magic Weapons",
+      "desc": "The sphinx's weapon attacks are magical."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Spellcasting",
+      "desc": "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:\n\nâ\u20ac¢ Cantrips (at will): mage hand, minor illusion, prestidigitation\nâ\u20ac¢ 1st level (4 slots): detect magic, identify, shield\nâ\u20ac¢ 2nd level (3 slots): darkness, locate object, suggestion\nâ\u20ac¢ 3rd level (3 slots): dispel magic, remove curse, tongues\nâ\u20ac¢ 4th level (3 slots): banishment, greater invisibility\nâ\u20ac¢ 5th level (1 slot): legend lore"
+    }
+  ],
+  "languages": "Common, Sphinx",
+  "damage_immunities": "psychic",
+  "damage_vulnerabilities": "",
+  "Uuid": 161,
+  "size": "Large",
+  "saving_throws": {},
+  "name": "Gynosphinx",
+  "attributes": {
+    "dexterity": 15,
+    "constitution": 16,
+    "strength": 18,
+    "charisma": 18,
+    "intelligence": 18,
+    "wisdom": 18
+  },
+  "alignment": "lawful neutral",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The sphinx makes two claw attacks."
+    },
+    {
+      "attack_bonus": 9,
+      "damage_dice": "2d8",
+      "name": "Claw",
+      "damage_bonus": 4,
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+    }
+  ]
+}

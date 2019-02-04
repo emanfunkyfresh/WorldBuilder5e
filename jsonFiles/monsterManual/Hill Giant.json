@@ -1,0 +1,50 @@
+{
+  "hit_points": 105,
+  "condition_immunities": "",
+  "languages": "Giant",
+  "senses": "passive Perception 12",
+  "challenge_rating": "5",
+  "damage_immunities": "",
+  "type": "giant",
+  "speed": "40 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {"perception": 2},
+  "armor_class": 13,
+  "Uuid": 167,
+  "size": "Huge",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "10d12",
+  "name": "Hill Giant",
+  "attributes": {
+    "dexterity": 8,
+    "constitution": 19,
+    "strength": 21,
+    "charisma": 6,
+    "intelligence": 5,
+    "wisdom": 9
+  },
+  "alignment": "chaotic evil",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The giant makes two greatclub attacks."
+    },
+    {
+      "attack_bonus": 8,
+      "damage_dice": "3d8",
+      "name": "Greatclub",
+      "damage_bonus": 5,
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage."
+    },
+    {
+      "attack_bonus": 8,
+      "damage_dice": "3d10",
+      "name": "Rock",
+      "damage_bonus": 5,
+      "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage."
+    }
+  ]
+}

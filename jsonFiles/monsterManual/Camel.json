@@ -1,0 +1,35 @@
+{
+  "hit_points": 15,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "passive Perception 9",
+  "challenge_rating": "1/8",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "50 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 9,
+  "Uuid": 59,
+  "size": "Large",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "2d10",
+  "name": "Camel",
+  "attributes": {
+    "dexterity": 8,
+    "constitution": 14,
+    "strength": 16,
+    "charisma": 5,
+    "intelligence": 2,
+    "wisdom": 8
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 5,
+    "damage_dice": "1d4",
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+  }]
+}

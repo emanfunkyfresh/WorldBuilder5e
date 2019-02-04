@@ -1,0 +1,45 @@
+{
+  "hit_points": 13,
+  "condition_immunities": "poisoned",
+  "languages": "understands all languages it spoke in life but can't speak",
+  "senses": "darkvision 60 ft., passive Perception 9",
+  "challenge_rating": "1/4",
+  "damage_immunities": "",
+  "type": "undead",
+  "speed": "30 ft.",
+  "damage_vulnerabilities": "bludgeoning",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 13,
+  "Uuid": 259,
+  "size": "Medium",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "2d8",
+  "name": "Skeleton",
+  "attributes": {
+    "dexterity": 14,
+    "constitution": 15,
+    "strength": 10,
+    "charisma": 5,
+    "intelligence": 6,
+    "wisdom": 8
+  },
+  "alignment": "lawful evil",
+  "actions": [
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "name": "Shortsword",
+      "damage_bonus": 2,
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "name": "Shortbow",
+      "damage_bonus": 2,
+      "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ]
+}

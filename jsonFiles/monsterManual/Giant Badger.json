@@ -1,0 +1,55 @@
+{
+  "hit_points": 13,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "darkvision 30 ft., passive Perception 11",
+  "challenge_rating": "1/4",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "30 ft., burrow 10 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 10,
+  "Uuid": 117,
+  "size": "Medium",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "2d8",
+  "name": "Giant Badger",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Keen Smell",
+    "desc": "The badger has advantage on Wisdom (Perception) checks that rely on smell."
+  }],
+  "attributes": {
+    "dexterity": 10,
+    "constitution": 15,
+    "strength": 13,
+    "charisma": 5,
+    "intelligence": 2,
+    "wisdom": 12
+  },
+  "alignment": "unaligned",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The badger makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "attack_bonus": 3,
+      "damage_dice": "1d6",
+      "name": "Bite",
+      "damage_bonus": 1,
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+    },
+    {
+      "attack_bonus": 3,
+      "damage_dice": "2d4",
+      "name": "Claws",
+      "damage_bonus": 1,
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
+    }
+  ]
+}

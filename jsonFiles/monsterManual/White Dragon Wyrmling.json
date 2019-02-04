@@ -1,0 +1,52 @@
+{
+  "hit_points": 32,
+  "condition_immunities": "",
+  "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+  "challenge_rating": "2",
+  "type": "dragon",
+  "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
+  "damage_resistances": "",
+  "skills": {
+    "stealth": 2,
+    "perception": 4
+  },
+  "armor_class": 16,
+  "subtype": "",
+  "hit_dice": "5d8",
+  "languages": "Draconic",
+  "damage_immunities": "cold",
+  "damage_vulnerabilities": "",
+  "Uuid": 306,
+  "size": "Medium",
+  "saving_throws": {
+    "charisma_save": 2,
+    "constitution_save": 4,
+    "wisdom_save": 2,
+    "dexterity_save": 2
+  },
+  "name": "White Dragon Wyrmling",
+  "attributes": {
+    "dexterity": 10,
+    "constitution": 14,
+    "strength": 14,
+    "charisma": 11,
+    "intelligence": 5,
+    "wisdom": 10
+  },
+  "alignment": "chaotic evil",
+  "actions": [
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d10 + 1d4",
+      "name": "Bite",
+      "damage_bonus": 2,
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) cold damage."
+    },
+    {
+      "attack_bonus": 0,
+      "damage_dice": "5d8",
+      "name": "Cold Breath (Recharge 5-6)",
+      "desc": "The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ]
+}

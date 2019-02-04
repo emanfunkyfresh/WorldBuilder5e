@@ -1,0 +1,36 @@
+{
+  "hit_points": 11,
+  "condition_immunities": "",
+  "languages": "",
+  "senses": "passive Perception 10",
+  "challenge_rating": "1/8",
+  "damage_immunities": "",
+  "type": "beast",
+  "speed": "40 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 10,
+  "Uuid": 228,
+  "size": "Medium",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "2d8",
+  "name": "Pony",
+  "attributes": {
+    "dexterity": 10,
+    "constitution": 13,
+    "strength": 15,
+    "charisma": 7,
+    "intelligence": 2,
+    "wisdom": 11
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 4,
+    "damage_dice": "2d4",
+    "name": "Hooves",
+    "damage_bonus": 2,
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage."
+  }]
+}

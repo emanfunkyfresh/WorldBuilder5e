@@ -1,0 +1,55 @@
+{
+  "hit_points": 34,
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "challenge_rating": "1",
+  "type": "beast",
+  "speed": "40 ft., climb 30 ft.",
+  "damage_resistances": "",
+  "skills": {"perception": 3},
+  "armor_class": 11,
+  "subtype": "",
+  "hit_dice": "4d10",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Keen Smell",
+    "desc": "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+  }],
+  "languages": "",
+  "damage_immunities": "",
+  "damage_vulnerabilities": "",
+  "Uuid": 56,
+  "size": "Large",
+  "saving_throws": {},
+  "name": "Brown Bear",
+  "attributes": {
+    "dexterity": 10,
+    "constitution": 16,
+    "strength": 19,
+    "charisma": 7,
+    "intelligence": 2,
+    "wisdom": 13
+  },
+  "alignment": "unaligned",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The bear makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d8",
+      "name": "Bite",
+      "damage_bonus": 4,
+      "desc": "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "2d6",
+      "name": "Claws",
+      "damage_bonus": 4,
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+    }
+  ]
+}

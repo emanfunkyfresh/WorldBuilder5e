@@ -1,0 +1,59 @@
+{
+  "hit_points": 22,
+  "condition_immunities": "",
+  "senses": "passive Perception 11",
+  "challenge_rating": "2",
+  "type": "humanoid",
+  "speed": "30 ft.",
+  "damage_resistances": "",
+  "skills": {
+    "persuasion": 4,
+    "deception": 4,
+    "religion": 2
+  },
+  "armor_class": 13,
+  "subtype": "any race",
+  "hit_dice": "6d8",
+  "special_abilities": [
+    {
+      "attack_bonus": 0,
+      "name": "Dark Devotion",
+      "desc": "The fanatic has advantage on saving throws against being charmed or frightened."
+    },
+    {
+      "attack_bonus": 0,
+      "name": "Spellcasting",
+      "desc": "The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:\n\nCantrips (at will): light, sacred flame, thaumaturgy\nâ\u20ac¢ 1st level (4 slots): command, inflict wounds, shield of faith\nâ\u20ac¢ 2nd level (3 slots): hold person, spiritual weapon"
+    }
+  ],
+  "languages": "any one language (usually Common)",
+  "damage_immunities": "",
+  "damage_vulnerabilities": "",
+  "Uuid": 77,
+  "size": "Medium",
+  "saving_throws": {},
+  "name": "Cult Fanatic",
+  "attributes": {
+    "dexterity": 14,
+    "constitution": 12,
+    "strength": 11,
+    "charisma": 14,
+    "intelligence": 10,
+    "wisdom": 13
+  },
+  "alignment": "any non-good alignment",
+  "actions": [
+    {
+      "attack_bonus": 0,
+      "name": "Multiattack",
+      "desc": "The fanatic makes two melee attacks."
+    },
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d4",
+      "name": "Dagger",
+      "damage_bonus": 2,
+      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+    }
+  ]
+}

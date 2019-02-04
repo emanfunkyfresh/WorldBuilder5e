@@ -1,0 +1,41 @@
+{
+  "hit_points": 5,
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "challenge_rating": "1/8",
+  "type": "beast",
+  "speed": "40 ft.",
+  "damage_resistances": "",
+  "skills": {"perception": 3},
+  "armor_class": 12,
+  "subtype": "",
+  "hit_dice": "1d8",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "Keen Hearing and Smell",
+    "desc": "The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+  }],
+  "languages": "",
+  "damage_immunities": "",
+  "damage_vulnerabilities": "",
+  "Uuid": 197,
+  "size": "Medium",
+  "saving_throws": {},
+  "name": "Mastiff",
+  "attributes": {
+    "dexterity": 14,
+    "constitution": 12,
+    "strength": 13,
+    "charisma": 7,
+    "intelligence": 3,
+    "wisdom": 12
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 3,
+    "damage_dice": "1d6",
+    "name": "Bite",
+    "damage_bonus": 1,
+    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+  }]
+}

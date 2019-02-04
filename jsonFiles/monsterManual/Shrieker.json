@@ -1,0 +1,39 @@
+{
+  "hit_points": 13,
+  "condition_immunities": "blinded, deafened, frightened",
+  "languages": "",
+  "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
+  "challenge_rating": "0",
+  "damage_immunities": "",
+  "type": "plant",
+  "speed": "0 ft.",
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "skills": {},
+  "armor_class": 5,
+  "Uuid": 257,
+  "size": "Medium",
+  "subtype": "",
+  "saving_throws": {},
+  "hit_dice": "3d8",
+  "name": "Shrieker",
+  "special_abilities": [{
+    "attack_bonus": 0,
+    "name": "False Appearance",
+    "desc": "While the shrieker remains motionless, it is indistinguishable from an ordinary fungus."
+  }],
+  "attributes": {
+    "dexterity": 1,
+    "constitution": 10,
+    "strength": 1,
+    "charisma": 1,
+    "intelligence": 1,
+    "wisdom": 3
+  },
+  "alignment": "unaligned",
+  "actions": [{
+    "attack_bonus": 0,
+    "name": "Shriek",
+    "desc": "When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward"
+  }]
+}
